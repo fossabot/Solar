@@ -1,4 +1,6 @@
 # SOLAR
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMewenLERESTE%2FSolar.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMewenLERESTE%2FSolar?ref=badge_shield)
+
 
 The Solar is an ECS (Entity Component System) created by BrokenDollEntertainment<br>
 The Solar is free to use
@@ -57,3 +59,7 @@ int main()
 ```
 You can compile this test like this<br>
 ````g++ main.cpp -o solarTest -lSolar````
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMewenLERESTE%2FSolar.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMewenLERESTE%2FSolar?ref=badge_large)
