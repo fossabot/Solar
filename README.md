@@ -7,7 +7,7 @@ Here is a simple Hello World! example using the Solar:
 main.cpp
 ```
 #include <iostream>
-#include <Solar/Core.hpp>
+#include <Core.hpp>
 
 class Printable : public Solar::Component
 {
