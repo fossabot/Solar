@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_a_world_script" kind="class" language="C++" prot="public">
+    <compoundname>Solar::AWorldScript</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_a_world_script_1a7b4bcdf992c21ae83363f25df05b1d25" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class World</definition>
+        <argsstring></argsstring>
+        <name>World</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" line="12" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_a_world_script_1a05a42117bf0474f19fe0e51793d41197" prot="protected" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;World&gt; Solar::AWorldScript::world</definition>
+        <argsstring></argsstring>
+        <name>world</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" line="17" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_a_world_script_1ab2eb2ae877fc4bcd6ef7138022a7ba60" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::AWorldScript::setWorld</definition>
+        <argsstring>(const std::weak_ptr&lt; World &gt; &amp;)</argsstring>
+        <name>setWorld</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+          <defname>world</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" line="14" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/AWorldScript.cpp" bodystart="4" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_solar_1_1_a_world_script_1af2d94ef1cb7ee874e5c45e56b3a41363" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Solar::AWorldScript::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" line="20" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/AWorldScript.cpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_a_world_script_1a969677b1c0a6305c235eacc08cde4361" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Solar::AWorldScript::destroy</definition>
+        <argsstring>()</argsstring>
+        <name>destroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" line="21" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/AWorldScript.cpp" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_a_world_script_1a6eda11647c847f466236bc624f6962f5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Solar::AWorldScript::~AWorldScript</definition>
+        <argsstring>()=default</argsstring>
+        <name>~AWorldScript</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" line="11" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AWorldScript.hpp" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_a_world_script_1a969677b1c0a6305c235eacc08cde4361" prot="protected" virt="virtual"><scope>Solar::AWorldScript</scope><name>destroy</name></member>
+      <member refid="class_solar_1_1_a_world_script_1af2d94ef1cb7ee874e5c45e56b3a41363" prot="protected" virt="virtual"><scope>Solar::AWorldScript</scope><name>init</name></member>
+      <member refid="class_solar_1_1_a_world_script_1ab2eb2ae877fc4bcd6ef7138022a7ba60" prot="private" virt="non-virtual"><scope>Solar::AWorldScript</scope><name>setWorld</name></member>
+      <member refid="class_solar_1_1_a_world_script_1a05a42117bf0474f19fe0e51793d41197" prot="protected" virt="non-virtual"><scope>Solar::AWorldScript</scope><name>world</name></member>
+      <member refid="class_solar_1_1_a_world_script_1a7b4bcdf992c21ae83363f25df05b1d25" prot="private" virt="non-virtual"><scope>Solar::AWorldScript</scope><name>World</name></member>
+      <member refid="class_solar_1_1_a_world_script_1a6eda11647c847f466236bc624f6962f5" prot="protected" virt="virtual"><scope>Solar::AWorldScript</scope><name>~AWorldScript</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

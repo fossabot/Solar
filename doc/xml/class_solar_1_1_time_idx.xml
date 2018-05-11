@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_time_idx" kind="class" language="C++" prot="public">
+    <compoundname>Solar::TimeIdx</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_time_idx_1ad9764c9308bdb6dbc05b9e37f8bce269" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Solar::TimeIdx::real</definition>
+        <argsstring></argsstring>
+        <name>real</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/TimeIdx.hpp" line="9" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/TimeIdx.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_time_idx_1a03159afa08f2693784bfa2a267cb8abd" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Solar::TimeIdx::expected</definition>
+        <argsstring></argsstring>
+        <name>expected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/TimeIdx.hpp" line="10" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/TimeIdx.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/TimeIdx.hpp" line="7" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/TimeIdx.hpp" bodystart="6" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_time_idx_1a03159afa08f2693784bfa2a267cb8abd" prot="public" virt="non-virtual"><scope>Solar::TimeIdx</scope><name>expected</name></member>
+      <member refid="class_solar_1_1_time_idx_1ad9764c9308bdb6dbc05b9e37f8bce269" prot="public" virt="non-virtual"><scope>Solar::TimeIdx</scope><name>real</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

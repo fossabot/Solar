@@ -1,0 +1,973 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_scene" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Solar::Scene</compoundname>
+    <includes local="no">Scene.hpp</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_scene_1a614439ccac0344926adc4c0165d64060" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Entity</definition>
+        <argsstring></argsstring>
+        <name>Entity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="25" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_scene_1a22b7f6ee0d77e67446edf06eead52c3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class InnerCore</definition>
+        <argsstring></argsstring>
+        <name>InnerCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="26" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_scene_1af18a9ee98e70982bfe2975391d7221a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class System</definition>
+        <argsstring></argsstring>
+        <name>System</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="27" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_scene_1a7b4bcdf992c21ae83363f25df05b1d25" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class World</definition>
+        <argsstring></argsstring>
+        <name>World</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="28" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_scene_1a222fe99946c89be9c9f6fef78ffddaa3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_solar_1_1_indexer" kindref="compound">Indexer</ref></type>
+        <definition>Indexer Solar::Scene::systemIndexer</definition>
+        <argsstring></argsstring>
+        <name>systemIndexer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="30" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1a3105d769432dfc16609095876480655a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Solar::Scene::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="31" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1a0f08ea3541f90c7a4111617d6fb8765f" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_a_scene_script" kindref="compound">ASceneScript</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ASceneScript&gt; Solar::Scene::script</definition>
+        <argsstring></argsstring>
+        <name>script</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="32" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1a4ff856a9696b071160bffc0dc4a909bd" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Solar::Scene::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="33" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1a367bf26916c7d4066eb8c86217ceba92" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;World&gt; Solar::Scene::world</definition>
+        <argsstring></argsstring>
+        <name>world</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="34" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1a5e9463ecf8094d73cf5c0c3eff64af2c" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;Scene&gt; Solar::Scene::own</definition>
+        <argsstring></argsstring>
+        <name>own</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="35" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1a79140136dc82be845294d6af03c27bee" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;Scene&gt; Solar::Scene::mother</definition>
+        <argsstring></argsstring>
+        <name>mother</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="36" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1aecb680817f08375af1ffa8a21a430cde" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::weak_ptr&lt;Scene&gt; &gt; Solar::Scene::childrens</definition>
+        <argsstring></argsstring>
+        <name>childrens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="37" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1a1d5b39643cb79d336e3dbb992d695052" prot="private" static="no" mutable="no">
+        <type><ref refid="class_solar_1_1_vector" kindref="compound">Vector</ref>&lt; <ref refid="class_solar_1_1_system" kindref="compound">System</ref> &gt;</type>
+        <definition>Vector&lt;System&gt; Solar::Scene::activeSystem</definition>
+        <argsstring></argsstring>
+        <name>activeSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="38" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1ac9735dd08f0cf235052f2433e8e1848e" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, std::vector&lt; std::string &gt; &gt;</type>
+        <definition>std::unordered_map&lt;std::string, std::vector&lt;std::string&gt; &gt; Solar::Scene::systemToLink</definition>
+        <argsstring></argsstring>
+        <name>systemToLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="39" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1ad387cf4f97defa69e744dbb78594907b" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, std::shared_ptr&lt; <ref refid="class_solar_1_1_system" kindref="compound">System</ref> &gt; &gt;</type>
+        <definition>std::unordered_map&lt;std::string, std::shared_ptr&lt;System&gt; &gt; Solar::Scene::systems</definition>
+        <argsstring></argsstring>
+        <name>systems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="40" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_scene_1a8f9591ad29fc2aeea85acb73a33eccff" prot="private" static="no" mutable="no">
+        <type><ref refid="class_solar_1_1_vector" kindref="compound">Vector</ref>&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt;</type>
+        <definition>Vector&lt;Entity&gt; Solar::Scene::entities</definition>
+        <argsstring></argsstring>
+        <name>entities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="41" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_scene_1a532c7bb8029b593a15a779222acf7548" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Scene::Scene</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>Scene</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="44" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a777227cd5c562dffd4d6bd2ebbc73eb5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::add</definition>
+        <argsstring>(const std::shared_ptr&lt; System &gt; &amp;, const SystemList &amp;=SystemList())</argsstring>
+        <name>add</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_system" kindref="compound">System</ref> &gt; &amp;</type>
+          <defname>toAdd</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_solar_1_1_system_list" kindref="compound">SystemList</ref> &amp;</type>
+          <defname>list</defname>
+          <defval><ref refid="class_solar_1_1_system_list" kindref="compound">SystemList</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="45" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="117" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a7715dc4be8886a7d792eeb9515811ffb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::setOwn</definition>
+        <argsstring>(const std::weak_ptr&lt; Scene &gt; &amp;)</argsstring>
+        <name>setOwn</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="46" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="250" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a7738a92f999c511d57ba663827979699" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+        <definition>const std::weak_ptr&lt; Solar::World &gt; &amp; Solar::Scene::getWorld</definition>
+        <argsstring>() const</argsstring>
+        <name>getWorld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="47" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="289" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a71c64c9ed9d7378c632561642b13c0ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::setWorld</definition>
+        <argsstring>(const std::weak_ptr&lt; World &gt; &amp;world)</argsstring>
+        <name>setWorld</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+          <declname>world</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="48" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="294" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a72bccb64eaf71725ff376153914a31f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::checkRemoveFrom</definition>
+        <argsstring>(const std::shared_ptr&lt; System &gt; &amp;, const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>checkRemoveFrom</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_system" kindref="compound">System</ref> &gt; &amp;</type>
+          <defname>system</defname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="49" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a9408a0c30f59b24a0e8911873b6a4141" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::checkAddTo</definition>
+        <argsstring>(const std::shared_ptr&lt; System &gt; &amp;, const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>checkAddTo</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_system" kindref="compound">System</ref> &gt; &amp;</type>
+          <defname>system</defname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="50" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a305c898aabddd3b54e3148e3aea2cf5f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::checkUpdateIn</definition>
+        <argsstring>(const std::shared_ptr&lt; System &gt; &amp;, const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>checkUpdateIn</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_system" kindref="compound">System</ref> &gt; &amp;</type>
+          <defname>system</defname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="51" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="88" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a9eaf54b666e44ea4b54c99872c35ba11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::Scene::compare</definition>
+        <argsstring>(const std::shared_ptr&lt; Scene &gt; &amp;)</argsstring>
+        <name>compare</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+          <defname>scene</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="52" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a417425368dd6ce9e1d4ff9b65c287e9f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::Scene::compare</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>compare</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="53" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a071c1a69591fcd4611127c2ec7701386" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::add</definition>
+        <argsstring>(const std::weak_ptr&lt; Scene &gt; &amp;)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+          <defname>scene</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="54" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="53" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a836331d60c910837f6c854b2af165ae4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::releaseMotherScene</definition>
+        <argsstring>()</argsstring>
+        <name>releaseMotherScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="55" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="272" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1ae523b7cacf3e16456c93d876689dee20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::setMotherScene</definition>
+        <argsstring>(const std::weak_ptr&lt; Scene &gt; &amp;)</argsstring>
+        <name>setMotherScene</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+          <defname>scene</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="56" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1aa927ad853ac27bb97f8028864e8405ff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::update</definition>
+        <argsstring>(const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>update</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="57" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="158" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a4298cc5cf7dc8096892c5198298e5041" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::load</definition>
+        <argsstring>()</argsstring>
+        <name>load</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="58" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="190" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a20032cff16be1a3bb0253c1861b668c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::unload</definition>
+        <argsstring>()</argsstring>
+        <name>unload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="59" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="199" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1ad4af985d458948de97e467aeabd37735" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::loaded</definition>
+        <argsstring>()</argsstring>
+        <name>loaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="60" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="98" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a696339fdbb06e674e9bf953b2ffa3b5f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::Scene::isInMotherWorld</definition>
+        <argsstring>() const</argsstring>
+        <name>isInMotherWorld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="61" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a21edb3e21ea0e5be055e8ebe540655b9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::receive</definition>
+        <argsstring>(const System::Event &amp;, const std::shared_ptr&lt; Solar::Entity &gt; &amp;)</argsstring>
+        <name>receive</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_system_1_1_event" kindref="compound">System::Event</ref> &amp;</type>
+          <defname>event</defname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Solar::Entity</ref> &gt; &amp;</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="62" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="277" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a0a26354ae30c2007372d0ebd33ef2db0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::receive</definition>
+        <argsstring>(const System::Event &amp;)</argsstring>
+        <name>receive</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_system_1_1_event" kindref="compound">System::Event</ref> &amp;</type>
+          <defname>event</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="63" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="283" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a2d68e804d7f1c22a95b2b591ebaadc64" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+        <definition>const std::weak_ptr&lt; Solar::Scene &gt; &amp; Solar::Scene::getMother</definition>
+        <argsstring>() const</argsstring>
+        <name>getMother</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="64" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="301" bodyend="304"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_scene_1a265ff0242d123de4d739bd6c9df93baa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::optimizeFor</definition>
+        <argsstring>(unsigned int)</argsstring>
+        <name>optimizeFor</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>size</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="67" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1acb4143b77e11d02557783522c12c93b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::setSceneScript</definition>
+        <argsstring>(const std::shared_ptr&lt; ASceneScript &gt; &amp;)</argsstring>
+        <name>setSceneScript</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_a_scene_script" kindref="compound">ASceneScript</ref> &gt; &amp;</type>
+          <defname>script</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="68" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="21" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a00f7d80e7f1bc9a542910b56d35cd23d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="69" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="208" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a2297da9a68f6685f1a25727d9eb4331c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::add</definition>
+        <argsstring>(const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>toAdd</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="70" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="107" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a0de9c67b699f78607dd09b565f1e308a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::update</definition>
+        <argsstring>(const TimeIdx &amp;)</argsstring>
+        <name>update</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_time_idx" kindref="compound">TimeIdx</ref> &amp;</type>
+          <defname>timeIdx</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="71" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1ab782b3012f64f81b54c95f55367e62bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; Solar::Scene::getName</definition>
+        <argsstring>() const</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="72" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a3c1f8b457185a9d59ae46007eb858cf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::remove</definition>
+        <argsstring>(const std::shared_ptr&lt; System &gt; &amp;)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_system" kindref="compound">System</ref> &gt; &amp;</type>
+          <defname>toRemove</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="73" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="153" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a9288f22905115b2518eff52f4409a1f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::remove</definition>
+        <argsstring>(const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>toRemove</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="74" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="146" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a5baab202a1bca61a7dd577c105ef7a69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::goToScene</definition>
+        <argsstring>()</argsstring>
+        <name>goToScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="75" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="164" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a7b9525222007690a2a95d61b818b448c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::goToScene</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>goToScene</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="76" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="175" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a410afce85f482cec37181d0c17b4ffa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::remove</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="77" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="217" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a082867e8de12f245be50c17f978280fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::remove</definition>
+        <argsstring>(const std::weak_ptr&lt; Scene &gt; &amp;)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+          <defname>scene</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="78" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="233" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a847dc6bfbbfc94e19cca019113681ebb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::Scene::isActive</definition>
+        <argsstring>() const</argsstring>
+        <name>isActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="79" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a4ec1c6406dd89edd4a1ccea87760a895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::setActivityOf</definition>
+        <argsstring>(const std::string &amp;, bool)</argsstring>
+        <name>setActivityOf</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <defname>active</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="80" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="265" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a48d4dd8f53bcc13ed1fbd497a8b76ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Scene::setActivity</definition>
+        <argsstring>(bool)</argsstring>
+        <name>setActivity</name>
+        <param>
+          <type>bool</type>
+          <defname>active</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="81" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1aa82c37b60ae73a9e458b6743eaaa90e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void Solar::Scene::remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="84" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="84" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a0ae376eafc5ccbdd9db3d25ad0661202" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>const <ref refid="class_solar_1_1_system_list" kindref="compound">SystemList</ref> &amp;</type>
+            <declname>list</declname>
+            <defname>list</defname>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void Solar::Scene::add</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>add</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="98" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a4eaf9d896cfd4ef2bc88ea01ce6dc613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void Solar::Scene::add</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>add</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="106" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="106" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_scene_1a1d29f36176234ddb395f740a89c6463a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Scene::~Scene</definition>
+        <argsstring>()</argsstring>
+        <name>~Scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="113" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Scene.cpp" bodystart="306" bodyend="318"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container of the <ref refid="class_solar_1_1_system" kindref="compound">System</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> is a node in the <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> tree.<linebreak/>
+ To change the current <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> simply call Scene::goToScene(const std::string &amp;name) on one of the current <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> with the name of one of his children<linebreak/>
+ When a <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> is updated (manually or through <ref refid="class_solar_1_1_world_1a5826aa2e1b50b4852740722e622d7a34" kindref="member">World::update</ref>), it update all his active <ref refid="class_solar_1_1_system" kindref="compound">System</ref>.<linebreak/>
+ To change the activity of a <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> in the <ref refid="class_solar_1_1_world" kindref="compound">World</ref> call Scene::setActivity or Scene::setActivityOf</para><para><simplesect kind="see"><para><ref refid="class_solar_1_1_world" kindref="compound">World</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" line="24" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Scene.hpp" bodystart="23" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_scene_1a3105d769432dfc16609095876480655a" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>active</name></member>
+      <member refid="class_solar_1_1_scene_1a1d5b39643cb79d336e3dbb992d695052" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>activeSystem</name></member>
+      <member refid="class_solar_1_1_scene_1a777227cd5c562dffd4d6bd2ebbc73eb5" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>add</name></member>
+      <member refid="class_solar_1_1_scene_1a071c1a69591fcd4611127c2ec7701386" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>add</name></member>
+      <member refid="class_solar_1_1_scene_1a2297da9a68f6685f1a25727d9eb4331c" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>add</name></member>
+      <member refid="class_solar_1_1_scene_1a0ae376eafc5ccbdd9db3d25ad0661202" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>add</name></member>
+      <member refid="class_solar_1_1_scene_1a4eaf9d896cfd4ef2bc88ea01ce6dc613" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>add</name></member>
+      <member refid="class_solar_1_1_scene_1a9408a0c30f59b24a0e8911873b6a4141" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>checkAddTo</name></member>
+      <member refid="class_solar_1_1_scene_1a72bccb64eaf71725ff376153914a31f1" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>checkRemoveFrom</name></member>
+      <member refid="class_solar_1_1_scene_1a305c898aabddd3b54e3148e3aea2cf5f" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>checkUpdateIn</name></member>
+      <member refid="class_solar_1_1_scene_1aecb680817f08375af1ffa8a21a430cde" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>childrens</name></member>
+      <member refid="class_solar_1_1_scene_1a00f7d80e7f1bc9a542910b56d35cd23d" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>clear</name></member>
+      <member refid="class_solar_1_1_scene_1a9eaf54b666e44ea4b54c99872c35ba11" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>compare</name></member>
+      <member refid="class_solar_1_1_scene_1a417425368dd6ce9e1d4ff9b65c287e9f" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>compare</name></member>
+      <member refid="class_solar_1_1_scene_1a8f9591ad29fc2aeea85acb73a33eccff" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>entities</name></member>
+      <member refid="class_solar_1_1_scene_1a614439ccac0344926adc4c0165d64060" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>Entity</name></member>
+      <member refid="class_solar_1_1_scene_1a2d68e804d7f1c22a95b2b591ebaadc64" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>getMother</name></member>
+      <member refid="class_solar_1_1_scene_1ab782b3012f64f81b54c95f55367e62bb" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>getName</name></member>
+      <member refid="class_solar_1_1_scene_1a7738a92f999c511d57ba663827979699" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>getWorld</name></member>
+      <member refid="class_solar_1_1_scene_1a5baab202a1bca61a7dd577c105ef7a69" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>goToScene</name></member>
+      <member refid="class_solar_1_1_scene_1a7b9525222007690a2a95d61b818b448c" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>goToScene</name></member>
+      <member refid="class_solar_1_1_scene_1a22b7f6ee0d77e67446edf06eead52c3b" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>InnerCore</name></member>
+      <member refid="class_solar_1_1_scene_1a847dc6bfbbfc94e19cca019113681ebb" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>isActive</name></member>
+      <member refid="class_solar_1_1_scene_1a696339fdbb06e674e9bf953b2ffa3b5f" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>isInMotherWorld</name></member>
+      <member refid="class_solar_1_1_scene_1a4298cc5cf7dc8096892c5198298e5041" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>load</name></member>
+      <member refid="class_solar_1_1_scene_1ad4af985d458948de97e467aeabd37735" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>loaded</name></member>
+      <member refid="class_solar_1_1_scene_1a79140136dc82be845294d6af03c27bee" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>mother</name></member>
+      <member refid="class_solar_1_1_scene_1a4ff856a9696b071160bffc0dc4a909bd" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>name</name></member>
+      <member refid="class_solar_1_1_scene_1a265ff0242d123de4d739bd6c9df93baa" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>optimizeFor</name></member>
+      <member refid="class_solar_1_1_scene_1a5e9463ecf8094d73cf5c0c3eff64af2c" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>own</name></member>
+      <member refid="class_solar_1_1_scene_1a21edb3e21ea0e5be055e8ebe540655b9" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>receive</name></member>
+      <member refid="class_solar_1_1_scene_1a0a26354ae30c2007372d0ebd33ef2db0" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>receive</name></member>
+      <member refid="class_solar_1_1_scene_1a836331d60c910837f6c854b2af165ae4" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>releaseMotherScene</name></member>
+      <member refid="class_solar_1_1_scene_1a3c1f8b457185a9d59ae46007eb858cf3" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_scene_1a9288f22905115b2518eff52f4409a1f6" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_scene_1a410afce85f482cec37181d0c17b4ffa2" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_scene_1a082867e8de12f245be50c17f978280fa" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_scene_1aa82c37b60ae73a9e458b6743eaaa90e7" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_scene_1a532c7bb8029b593a15a779222acf7548" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>Scene</name></member>
+      <member refid="class_solar_1_1_scene_1a0f08ea3541f90c7a4111617d6fb8765f" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>script</name></member>
+      <member refid="class_solar_1_1_scene_1a48d4dd8f53bcc13ed1fbd497a8b76ac6" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>setActivity</name></member>
+      <member refid="class_solar_1_1_scene_1a4ec1c6406dd89edd4a1ccea87760a895" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>setActivityOf</name></member>
+      <member refid="class_solar_1_1_scene_1ae523b7cacf3e16456c93d876689dee20" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>setMotherScene</name></member>
+      <member refid="class_solar_1_1_scene_1a7715dc4be8886a7d792eeb9515811ffb" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>setOwn</name></member>
+      <member refid="class_solar_1_1_scene_1acb4143b77e11d02557783522c12c93b2" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>setSceneScript</name></member>
+      <member refid="class_solar_1_1_scene_1a71c64c9ed9d7378c632561642b13c0ec" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>setWorld</name></member>
+      <member refid="class_solar_1_1_scene_1af18a9ee98e70982bfe2975391d7221a5" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>System</name></member>
+      <member refid="class_solar_1_1_scene_1a222fe99946c89be9c9f6fef78ffddaa3" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>systemIndexer</name></member>
+      <member refid="class_solar_1_1_scene_1ad387cf4f97defa69e744dbb78594907b" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>systems</name></member>
+      <member refid="class_solar_1_1_scene_1ac9735dd08f0cf235052f2433e8e1848e" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>systemToLink</name></member>
+      <member refid="class_solar_1_1_scene_1a20032cff16be1a3bb0253c1861b668c6" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>unload</name></member>
+      <member refid="class_solar_1_1_scene_1aa927ad853ac27bb97f8028864e8405ff" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>update</name></member>
+      <member refid="class_solar_1_1_scene_1a0de9c67b699f78607dd09b565f1e308a" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>update</name></member>
+      <member refid="class_solar_1_1_scene_1a367bf26916c7d4066eb8c86217ceba92" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>world</name></member>
+      <member refid="class_solar_1_1_scene_1a7b4bcdf992c21ae83363f25df05b1d25" prot="private" virt="non-virtual"><scope>Solar::Scene</scope><name>World</name></member>
+      <member refid="class_solar_1_1_scene_1a1d29f36176234ddb395f740a89c6463a" prot="public" virt="non-virtual"><scope>Solar::Scene</scope><name>~Scene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

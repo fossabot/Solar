@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_entity" kind="class" language="C++" prot="public">
+    <compoundname>Solar::Entity</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_entity_1a22b7f6ee0d77e67446edf06eead52c3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class InnerCore</definition>
+        <argsstring></argsstring>
+        <name>InnerCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="17" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_entity_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Scene</definition>
+        <argsstring></argsstring>
+        <name>Scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="18" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_entity_1af18a9ee98e70982bfe2975391d7221a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class System</definition>
+        <argsstring></argsstring>
+        <name>System</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="19" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_entity_1ad357a1c1ce963e42b9b96793ab2ede7d" prot="private" static="no" mutable="no">
+        <type>Solar::Indexer::indexType</type>
+        <definition>Solar::Indexer::indexType Solar::Entity::idx</definition>
+        <argsstring></argsstring>
+        <name>idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="21" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_entity_1a226525c95f08a25d794dab399b025bb6" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Solar::Entity::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="22" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_entity_1af7ab243f2970767d1320c8bbde949af1" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, std::shared_ptr&lt; <ref refid="class_solar_1_1_component" kindref="compound">Component</ref> &gt; &gt;</type>
+        <definition>std::unordered_map&lt;std::string, std::shared_ptr&lt;Component&gt; &gt; Solar::Entity::components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="23" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_entity_1ae05a3191578a8bd7fec6995032b34233" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_inner_core" kindref="compound">InnerCore</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;InnerCore&gt; Solar::Entity::core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="24" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_entity_1a364498e3b07347e4c2c7b5b31679434f" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;Entity&gt; Solar::Entity::own</definition>
+        <argsstring></argsstring>
+        <name>own</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="25" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_entity_1a09a37a00c283528a40ba8ed9251982f5" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;Scene&gt; Solar::Entity::scene</definition>
+        <argsstring></argsstring>
+        <name>scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="26" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_entity_1a480c0f66d146764f366aa80ebbf58c32" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_a_entity_script" kindref="compound">AEntityScript</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;AEntityScript&gt; Solar::Entity::script</definition>
+        <argsstring></argsstring>
+        <name>script</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="27" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_entity_1a35379c94e785050dcc9a6f20ed59abac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Entity::Entity</definition>
+        <argsstring>(const std::weak_ptr&lt; InnerCore &gt; &amp;, const std::string &amp;)</argsstring>
+        <name>Entity</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_inner_core" kindref="compound">InnerCore</ref> &gt; &amp;</type>
+          <defname>core</defname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="30" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1a8010333cb1dba3521b1c57e54ebde5c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Entity::setUid</definition>
+        <argsstring>(Indexer::indexType uid)</argsstring>
+        <name>setUid</name>
+        <param>
+          <type>Indexer::indexType</type>
+          <declname>uid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="31" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1acf934f506bd74c17649f918ff113dffa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Entity::setOwn</definition>
+        <argsstring>(const std::weak_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>setOwn</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>own</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="32" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1a48f68d69beab775f979d29d7c7da8faf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Entity::init</definition>
+        <argsstring>(const std::weak_ptr&lt; Scene &gt; &amp;)</argsstring>
+        <name>init</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+          <defname>scene</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="33" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1acc70b38e7333a1f3630e2c39b24871dd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Entity::updateScene</definition>
+        <argsstring>()</argsstring>
+        <name>updateScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="34" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1a37be4e3bf60dd2842ba0fea99a3dca31" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::Entity::find</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>find</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>templateName</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="35" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1abbf29804b21fe6e3b9cfec11a4115520" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+        <definition>const std::weak_ptr&lt; Solar::Scene &gt; &amp; Solar::Entity::getScene</definition>
+        <argsstring>() const</argsstring>
+        <name>getScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="36" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_entity_1ad61fb4d5e687f7a8ba596b69408f1cae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Indexer::indexType</type>
+        <definition>Solar::Indexer::indexType Solar::Entity::getIdx</definition>
+        <argsstring>() const</argsstring>
+        <name>getIdx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="39" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1afa6abf6091f2c300e31eb71da2afa415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Entity::destroy</definition>
+        <argsstring>()</argsstring>
+        <name>destroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="40" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="49" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1ab6785a0c9578c2026e5c34a82862449b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; Solar::Entity::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="41" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1a3b386b6b5e35e7792c6f5ee39b13580c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Entity::setScript</definition>
+        <argsstring>(const std::shared_ptr&lt; AEntityScript &gt; &amp;)</argsstring>
+        <name>setScript</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_a_entity_script" kindref="compound">AEntityScript</ref> &gt; &amp;</type>
+          <defname>script</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="42" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1a83483444aaa01b4fab0e7ce41560ce59" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_a_entity_script" kindref="compound">AEntityScript</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; Solar::AEntityScript &gt; &amp; Solar::Entity::getScript</definition>
+        <argsstring>() const</argsstring>
+        <name>getScript</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="43" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Entity.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1ab8a10abbc00db8becee6f9e5668c7b60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void Solar::Entity::add</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>add</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="46" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1a1bcca8d7c131344a72a35b4c794e81fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool Solar::Entity::find</definition>
+        <argsstring>()</argsstring>
+        <name>find</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="55" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1a68aaed16959fed13691074f3e6293d95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; T &gt;</type>
+        <definition>std::shared_ptr&lt;T&gt; Solar::Entity::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="61" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_1afab2011c7a5e1d843a4ba3036bfad593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void Solar::Entity::remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="70" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="70" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" line="16" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Entity.hpp" bodystart="15" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_entity_1ab8a10abbc00db8becee6f9e5668c7b60" prot="public" virt="non-virtual"><scope>Solar::Entity</scope><name>add</name></member>
+      <member refid="class_solar_1_1_entity_1af7ab243f2970767d1320c8bbde949af1" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>components</name></member>
+      <member refid="class_solar_1_1_entity_1ae05a3191578a8bd7fec6995032b34233" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>core</name></member>
+      <member refid="class_solar_1_1_entity_1afa6abf6091f2c300e31eb71da2afa415" prot="public" virt="non-virtual"><scope>Solar::Entity</scope><name>destroy</name></member>
+      <member refid="class_solar_1_1_entity_1a35379c94e785050dcc9a6f20ed59abac" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>Entity</name></member>
+      <member refid="class_solar_1_1_entity_1a37be4e3bf60dd2842ba0fea99a3dca31" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>find</name></member>
+      <member refid="class_solar_1_1_entity_1a1bcca8d7c131344a72a35b4c794e81fe" prot="public" virt="non-virtual"><scope>Solar::Entity</scope><name>find</name></member>
+      <member refid="class_solar_1_1_entity_1a68aaed16959fed13691074f3e6293d95" prot="public" virt="non-virtual"><scope>Solar::Entity</scope><name>get</name></member>
+      <member refid="class_solar_1_1_entity_1ab6785a0c9578c2026e5c34a82862449b" prot="public" virt="non-virtual"><scope>Solar::Entity</scope><name>getId</name></member>
+      <member refid="class_solar_1_1_entity_1ad61fb4d5e687f7a8ba596b69408f1cae" prot="public" virt="non-virtual"><scope>Solar::Entity</scope><name>getIdx</name></member>
+      <member refid="class_solar_1_1_entity_1abbf29804b21fe6e3b9cfec11a4115520" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>getScene</name></member>
+      <member refid="class_solar_1_1_entity_1a83483444aaa01b4fab0e7ce41560ce59" prot="public" virt="non-virtual"><scope>Solar::Entity</scope><name>getScript</name></member>
+      <member refid="class_solar_1_1_entity_1a226525c95f08a25d794dab399b025bb6" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>id</name></member>
+      <member refid="class_solar_1_1_entity_1ad357a1c1ce963e42b9b96793ab2ede7d" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>idx</name></member>
+      <member refid="class_solar_1_1_entity_1a48f68d69beab775f979d29d7c7da8faf" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>init</name></member>
+      <member refid="class_solar_1_1_entity_1a22b7f6ee0d77e67446edf06eead52c3b" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>InnerCore</name></member>
+      <member refid="class_solar_1_1_entity_1a364498e3b07347e4c2c7b5b31679434f" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>own</name></member>
+      <member refid="class_solar_1_1_entity_1afab2011c7a5e1d843a4ba3036bfad593" prot="public" virt="non-virtual"><scope>Solar::Entity</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_entity_1a09a37a00c283528a40ba8ed9251982f5" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>scene</name></member>
+      <member refid="class_solar_1_1_entity_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>Scene</name></member>
+      <member refid="class_solar_1_1_entity_1a480c0f66d146764f366aa80ebbf58c32" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>script</name></member>
+      <member refid="class_solar_1_1_entity_1acf934f506bd74c17649f918ff113dffa" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>setOwn</name></member>
+      <member refid="class_solar_1_1_entity_1a3b386b6b5e35e7792c6f5ee39b13580c" prot="public" virt="non-virtual"><scope>Solar::Entity</scope><name>setScript</name></member>
+      <member refid="class_solar_1_1_entity_1a8010333cb1dba3521b1c57e54ebde5c6" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>setUid</name></member>
+      <member refid="class_solar_1_1_entity_1af18a9ee98e70982bfe2975391d7221a5" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>System</name></member>
+      <member refid="class_solar_1_1_entity_1acc70b38e7333a1f3630e2c39b24871dd" prot="private" virt="non-virtual"><scope>Solar::Entity</scope><name>updateScene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

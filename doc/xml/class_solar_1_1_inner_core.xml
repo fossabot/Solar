@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_inner_core" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Solar::InnerCore</compoundname>
+    <includes local="no">InnerCore.hpp</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_inner_core_1a4107254ac74f90d4f91e810d755b98c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Core</definition>
+        <argsstring></argsstring>
+        <name>Core</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="19" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_inner_core_1a614439ccac0344926adc4c0165d64060" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Entity</definition>
+        <argsstring></argsstring>
+        <name>Entity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="20" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_inner_core_1a7b4bcdf992c21ae83363f25df05b1d25" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class World</definition>
+        <argsstring></argsstring>
+        <name>World</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="21" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_inner_core_1aed75f0bddd133c717f447f96f8fdb99f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_solar_1_1_indexer" kindref="compound">Indexer</ref></type>
+        <definition>Indexer Solar::InnerCore::indexer</definition>
+        <argsstring></argsstring>
+        <name>indexer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="23" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_inner_core_1afdcdc3512730c755e8a5671b08a68d93" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_inner_core" kindref="compound">InnerCore</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;InnerCore&gt; Solar::InnerCore::own</definition>
+        <argsstring></argsstring>
+        <name>own</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="24" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_inner_core_1a01526f87779a4389eaf2d47684e179bd" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;World&gt; Solar::InnerCore::primalWorld</definition>
+        <argsstring></argsstring>
+        <name>primalWorld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="25" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_inner_core_1a41a1186f9c0473d25385e2384b765360" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;World&gt; Solar::InnerCore::currentWorld</definition>
+        <argsstring></argsstring>
+        <name>currentWorld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="26" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_inner_core_1ab7e621620ab2606c88432287fdce9e66" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;World&gt; &gt; Solar::InnerCore::worlds</definition>
+        <argsstring></argsstring>
+        <name>worlds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="27" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_inner_core_1a43b0317588ed692cba3ef7c31c6f9bd2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;Scene&gt; &gt; Solar::InnerCore::scenes</definition>
+        <argsstring></argsstring>
+        <name>scenes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="28" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1aa16910f9d10ac365fc9b24325915249c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::InnerCore::InnerCore</definition>
+        <argsstring>()=default</argsstring>
+        <name>InnerCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1a875547f4baa5f2e3c1ad44858039a866" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::InnerCore::setCurrentWorld</definition>
+        <argsstring>(const std::weak_ptr&lt; World &gt; &amp;)</argsstring>
+        <name>setCurrentWorld</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+          <defname>newCurrentWorld</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="32" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/InnerCore.cpp" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1af30ca68f658a03112a08da9d8fe16567" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; Solar::World &gt; &amp; Solar::InnerCore::getPrimalWorld</definition>
+        <argsstring>() const</argsstring>
+        <name>getPrimalWorld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="33" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/InnerCore.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1a7215000811d45b2e53f8e040b08fc85f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::InnerCore::setOwn</definition>
+        <argsstring>(const std::weak_ptr&lt; InnerCore &gt; &amp;)</argsstring>
+        <name>setOwn</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_inner_core" kindref="compound">InnerCore</ref> &gt; &amp;</type>
+          <defname>own</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="34" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/InnerCore.cpp" bodystart="3" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1a7581f436e7ea2b2a00248fba4c6b5dd4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Solar::Entity &gt; Solar::InnerCore::createEntity</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>createEntity</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="35" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/InnerCore.cpp" bodystart="11" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1aab07fe93d0adf258bf772f06053e0b3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Solar::World &gt; Solar::InnerCore::createWorld</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>createWorld</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="36" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/InnerCore.cpp" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1aa126c8bdc53ea8f51071f766ab9aab37" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Solar::Scene &gt; Solar::InnerCore::createScene</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>createScene</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="37" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/InnerCore.cpp" bodystart="27" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1a78242cf28f3221fb11d617151dc80c78" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::InnerCore::update</definition>
+        <argsstring>(const TimeIdx &amp;)</argsstring>
+        <name>update</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_time_idx" kindref="compound">TimeIdx</ref> &amp;</type>
+          <defname>timeIdx</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="38" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/InnerCore.cpp" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1a52265dd7f1374101f5d56f85776ae517" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::InnerCore::destroy</definition>
+        <argsstring>(const std::weak_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>destroy</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="39" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/InnerCore.cpp" bodystart="55" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_inner_core_1aaa64289d28c23cae0056bf5c58918bd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::InnerCore::~InnerCore</definition>
+        <argsstring>()</argsstring>
+        <name>~InnerCore</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Destroy the <ref refid="class_solar_1_1_inner_core" kindref="compound">InnerCore</ref> and clear his memory </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="47" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/InnerCore.cpp" bodystart="63" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class used by the <ref refid="class_solar_1_1_core" kindref="compound">Core</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Private class used by the <ref refid="class_solar_1_1_core" kindref="compound">Core</ref> to manage the ECS </para>    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" line="18" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/InnerCore.hpp" bodystart="17" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_inner_core_1a4107254ac74f90d4f91e810d755b98c2" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>Core</name></member>
+      <member refid="class_solar_1_1_inner_core_1a7581f436e7ea2b2a00248fba4c6b5dd4" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>createEntity</name></member>
+      <member refid="class_solar_1_1_inner_core_1aa126c8bdc53ea8f51071f766ab9aab37" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>createScene</name></member>
+      <member refid="class_solar_1_1_inner_core_1aab07fe93d0adf258bf772f06053e0b3f" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>createWorld</name></member>
+      <member refid="class_solar_1_1_inner_core_1a41a1186f9c0473d25385e2384b765360" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>currentWorld</name></member>
+      <member refid="class_solar_1_1_inner_core_1a52265dd7f1374101f5d56f85776ae517" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>destroy</name></member>
+      <member refid="class_solar_1_1_inner_core_1a614439ccac0344926adc4c0165d64060" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>Entity</name></member>
+      <member refid="class_solar_1_1_inner_core_1af30ca68f658a03112a08da9d8fe16567" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>getPrimalWorld</name></member>
+      <member refid="class_solar_1_1_inner_core_1aed75f0bddd133c717f447f96f8fdb99f" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>indexer</name></member>
+      <member refid="class_solar_1_1_inner_core_1aa16910f9d10ac365fc9b24325915249c" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>InnerCore</name></member>
+      <member refid="class_solar_1_1_inner_core_1afdcdc3512730c755e8a5671b08a68d93" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>own</name></member>
+      <member refid="class_solar_1_1_inner_core_1a01526f87779a4389eaf2d47684e179bd" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>primalWorld</name></member>
+      <member refid="class_solar_1_1_inner_core_1a43b0317588ed692cba3ef7c31c6f9bd2" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>scenes</name></member>
+      <member refid="class_solar_1_1_inner_core_1a875547f4baa5f2e3c1ad44858039a866" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>setCurrentWorld</name></member>
+      <member refid="class_solar_1_1_inner_core_1a7215000811d45b2e53f8e040b08fc85f" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>setOwn</name></member>
+      <member refid="class_solar_1_1_inner_core_1a78242cf28f3221fb11d617151dc80c78" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>update</name></member>
+      <member refid="class_solar_1_1_inner_core_1a7b4bcdf992c21ae83363f25df05b1d25" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>World</name></member>
+      <member refid="class_solar_1_1_inner_core_1ab7e621620ab2606c88432287fdce9e66" prot="private" virt="non-virtual"><scope>Solar::InnerCore</scope><name>worlds</name></member>
+      <member refid="class_solar_1_1_inner_core_1aaa64289d28c23cae0056bf5c58918bd9" prot="public" virt="non-virtual"><scope>Solar::InnerCore</scope><name>~InnerCore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

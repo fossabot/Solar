@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_a_entity_script" kind="class" language="C++" prot="public">
+    <compoundname>Solar::AEntityScript</compoundname>
+    <includes local="no">AEntityScript.hpp</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_a_entity_script_1a614439ccac0344926adc4c0165d64060" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Entity</definition>
+        <argsstring></argsstring>
+        <name>Entity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" line="17" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_a_entity_script_1a522fcc7f20ef5cc8c4555c51ea64dc77" prot="protected" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;Entity&gt; Solar::AEntityScript::entity</definition>
+        <argsstring></argsstring>
+        <name>entity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" line="19" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_a_entity_script_1afecccf14a91409e3bfb736ded8eb53cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::AEntityScript::setEntity</definition>
+        <argsstring>(const std::weak_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>setEntity</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" line="22" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/AEntityScript.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_a_entity_script_1a389464951dee4546b9ac15b471121bea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::AEntityScript::destroyEntity</definition>
+        <argsstring>()</argsstring>
+        <name>destroyEntity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" line="23" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/AEntityScript.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_a_entity_script_1a114b7b866f686fbb5bb983b33866170c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Solar::AEntityScript::~AEntityScript</definition>
+        <argsstring>()=default</argsstring>
+        <name>~AEntityScript</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class allowing to specify some action of the <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> </para>    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" line="16" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" bodystart="15" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_a_entity_script_1a389464951dee4546b9ac15b471121bea" prot="private" virt="non-virtual"><scope>Solar::AEntityScript</scope><name>destroyEntity</name></member>
+      <member refid="class_solar_1_1_a_entity_script_1a614439ccac0344926adc4c0165d64060" prot="private" virt="non-virtual"><scope>Solar::AEntityScript</scope><name>Entity</name></member>
+      <member refid="class_solar_1_1_a_entity_script_1a522fcc7f20ef5cc8c4555c51ea64dc77" prot="protected" virt="non-virtual"><scope>Solar::AEntityScript</scope><name>entity</name></member>
+      <member refid="class_solar_1_1_a_entity_script_1afecccf14a91409e3bfb736ded8eb53cb" prot="private" virt="non-virtual"><scope>Solar::AEntityScript</scope><name>setEntity</name></member>
+      <member refid="class_solar_1_1_a_entity_script_1a114b7b866f686fbb5bb983b33866170c" prot="public" virt="virtual"><scope>Solar::AEntityScript</scope><name>~AEntityScript</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

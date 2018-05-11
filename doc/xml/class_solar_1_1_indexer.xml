@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_indexer" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Solar::Indexer</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_solar_1_1_indexer_1ad9f14a1f5add8b4bc81bdc92aa2d17e4" prot="public" static="no">
+        <type>unsigned long long</type>
+        <definition>typedef unsigned long long Solar::Indexer::indexType</definition>
+        <argsstring></argsstring>
+        <name>indexType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="11" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_indexer_1aa8f5a9159e84379d2353b8740089cc60" prot="private" static="no" mutable="no">
+        <type>indexType</type>
+        <definition>indexType Solar::Indexer::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="14" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_indexer_1a00dc93cb700f99c5095fbc3500777133" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; indexType &gt;</type>
+        <definition>std::vector&lt;indexType&gt; Solar::Indexer::freeIndex</definition>
+        <argsstring></argsstring>
+        <name>freeIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="15" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_indexer_1aa2fed1ff772a8c5e7893655c9c2b6482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Indexer::Indexer</definition>
+        <argsstring>()</argsstring>
+        <name>Indexer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="18" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Indexer.cpp" bodystart="3" bodyend="3"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_indexer_1a4f0f40ed65f8c6f003837f5c7898b0d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Indexer::Indexer</definition>
+        <argsstring>(const Indexer &amp;)</argsstring>
+        <name>Indexer</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_indexer" kindref="compound">Indexer</ref> &amp;</type>
+          <defname>other</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="19" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Indexer.cpp" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_indexer_1a5771cba2b6ef21b3220c37ef1ca183a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_solar_1_1_indexer" kindref="compound">Indexer</ref> &amp;</type>
+        <definition>Solar::Indexer &amp; Solar::Indexer::operator=</definition>
+        <argsstring>(const Indexer &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_indexer" kindref="compound">Indexer</ref> &amp;</type>
+          <defname>other</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="20" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Indexer.cpp" bodystart="7" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_indexer_1acbf63e323f121c44ce7a8f978cc13c8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>indexType</type>
+        <definition>Solar::Indexer::indexType Solar::Indexer::next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="21" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Indexer.cpp" bodystart="14" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_indexer_1a2c01fa4f33091c3ff78d6229f03bba78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Indexer::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="22" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Indexer.cpp" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_indexer_1a0298335035779cee4b862cd62e2bb21c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Indexer::free</definition>
+        <argsstring>(indexType)</argsstring>
+        <name>free</name>
+        <param>
+          <type>indexType</type>
+          <defname>toFree</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="23" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Indexer.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_indexer_1a73389a4549cb0c27d1e9e5855adc0a06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Indexer::~Indexer</definition>
+        <argsstring>()</argsstring>
+        <name>~Indexer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="24" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Indexer.cpp" bodystart="39" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" line="9" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Indexer.hpp" bodystart="8" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_indexer_1a0298335035779cee4b862cd62e2bb21c" prot="public" virt="non-virtual"><scope>Solar::Indexer</scope><name>free</name></member>
+      <member refid="class_solar_1_1_indexer_1a00dc93cb700f99c5095fbc3500777133" prot="private" virt="non-virtual"><scope>Solar::Indexer</scope><name>freeIndex</name></member>
+      <member refid="class_solar_1_1_indexer_1aa8f5a9159e84379d2353b8740089cc60" prot="private" virt="non-virtual"><scope>Solar::Indexer</scope><name>index</name></member>
+      <member refid="class_solar_1_1_indexer_1aa2fed1ff772a8c5e7893655c9c2b6482" prot="public" virt="non-virtual"><scope>Solar::Indexer</scope><name>Indexer</name></member>
+      <member refid="class_solar_1_1_indexer_1a4f0f40ed65f8c6f003837f5c7898b0d7" prot="public" virt="non-virtual"><scope>Solar::Indexer</scope><name>Indexer</name></member>
+      <member refid="class_solar_1_1_indexer_1ad9f14a1f5add8b4bc81bdc92aa2d17e4" prot="public" virt="non-virtual"><scope>Solar::Indexer</scope><name>indexType</name></member>
+      <member refid="class_solar_1_1_indexer_1acbf63e323f121c44ce7a8f978cc13c8b" prot="public" virt="non-virtual"><scope>Solar::Indexer</scope><name>next</name></member>
+      <member refid="class_solar_1_1_indexer_1a5771cba2b6ef21b3220c37ef1ca183a4" prot="public" virt="non-virtual"><scope>Solar::Indexer</scope><name>operator=</name></member>
+      <member refid="class_solar_1_1_indexer_1a2c01fa4f33091c3ff78d6229f03bba78" prot="public" virt="non-virtual"><scope>Solar::Indexer</scope><name>reset</name></member>
+      <member refid="class_solar_1_1_indexer_1a73389a4549cb0c27d1e9e5855adc0a06" prot="public" virt="non-virtual"><scope>Solar::Indexer</scope><name>~Indexer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

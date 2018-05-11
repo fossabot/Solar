@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_a_scene_script" kind="class" language="C++" prot="public">
+    <compoundname>Solar::ASceneScript</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_a_scene_script_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Scene</definition>
+        <argsstring></argsstring>
+        <name>Scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="13" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_a_scene_script_1a3cd22c84d1ed86e31212871462fc210c" prot="protected" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;Scene&gt; Solar::ASceneScript::scene</definition>
+        <argsstring></argsstring>
+        <name>scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="18" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_a_scene_script_1a6f18132c92ba1d60487278b2123e6941" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::ASceneScript::setScene</definition>
+        <argsstring>(const std::weak_ptr&lt; Scene &gt; &amp;)</argsstring>
+        <name>setScene</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+          <defname>scene</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="15" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/ASceneScript.cpp" bodystart="4" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_solar_1_1_a_scene_script_1ad8e775ca10c0261ccda37d8264324f8e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Solar::ASceneScript::receive</definition>
+        <argsstring>(const System::Event &amp;, const std::shared_ptr&lt; Solar::Entity &gt; &amp;)</argsstring>
+        <name>receive</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_system_1_1_event" kindref="compound">System::Event</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Solar::Entity</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="21" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/ASceneScript.cpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_a_scene_script_1ac72e87df21188aa3616d9bb760ddeb5c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Solar::ASceneScript::receive</definition>
+        <argsstring>(const System::Event &amp;)</argsstring>
+        <name>receive</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_system_1_1_event" kindref="compound">System::Event</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="22" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/ASceneScript.cpp" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_a_scene_script_1ab9c8e3486f655003b36a09dc2b88f343" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Solar::ASceneScript::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="23" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/ASceneScript.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_a_scene_script_1a5010ae3be54ed41595b28c3a4a28d677" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Solar::ASceneScript::destroy</definition>
+        <argsstring>()</argsstring>
+        <name>destroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="24" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/ASceneScript.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_a_scene_script_1a9bcad57f371be84a1b8505beff009ae1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Solar::ASceneScript::update</definition>
+        <argsstring>(const TimeIdx &amp;)</argsstring>
+        <name>update</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_time_idx" kindref="compound">TimeIdx</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="25" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/ASceneScript.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_a_scene_script_1aaf808025be7b5d8382ad3d76be0eae98" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Solar::ASceneScript::~ASceneScript</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ASceneScript</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" line="12" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/ASceneScript.hpp" bodystart="11" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_a_scene_script_1a5010ae3be54ed41595b28c3a4a28d677" prot="protected" virt="virtual"><scope>Solar::ASceneScript</scope><name>destroy</name></member>
+      <member refid="class_solar_1_1_a_scene_script_1ab9c8e3486f655003b36a09dc2b88f343" prot="protected" virt="virtual"><scope>Solar::ASceneScript</scope><name>init</name></member>
+      <member refid="class_solar_1_1_a_scene_script_1ad8e775ca10c0261ccda37d8264324f8e" prot="protected" virt="virtual"><scope>Solar::ASceneScript</scope><name>receive</name></member>
+      <member refid="class_solar_1_1_a_scene_script_1ac72e87df21188aa3616d9bb760ddeb5c" prot="protected" virt="virtual"><scope>Solar::ASceneScript</scope><name>receive</name></member>
+      <member refid="class_solar_1_1_a_scene_script_1a3cd22c84d1ed86e31212871462fc210c" prot="protected" virt="non-virtual"><scope>Solar::ASceneScript</scope><name>scene</name></member>
+      <member refid="class_solar_1_1_a_scene_script_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" virt="non-virtual"><scope>Solar::ASceneScript</scope><name>Scene</name></member>
+      <member refid="class_solar_1_1_a_scene_script_1a6f18132c92ba1d60487278b2123e6941" prot="private" virt="non-virtual"><scope>Solar::ASceneScript</scope><name>setScene</name></member>
+      <member refid="class_solar_1_1_a_scene_script_1a9bcad57f371be84a1b8505beff009ae1" prot="protected" virt="virtual"><scope>Solar::ASceneScript</scope><name>update</name></member>
+      <member refid="class_solar_1_1_a_scene_script_1aaf808025be7b5d8382ad3d76be0eae98" prot="protected" virt="virtual"><scope>Solar::ASceneScript</scope><name>~ASceneScript</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

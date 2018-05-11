@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>src</compoundname>
+    <innerfile refid="_a_entity_script_8cpp">AEntityScript.cpp</innerfile>
+    <innerfile refid="_a_scene_script_8cpp">ASceneScript.cpp</innerfile>
+    <innerfile refid="_a_world_script_8cpp">AWorldScript.cpp</innerfile>
+    <innerfile refid="_core_8cpp">Core.cpp</innerfile>
+    <innerfile refid="_entity_8cpp">Entity.cpp</innerfile>
+    <innerfile refid="_indexer_8cpp">Indexer.cpp</innerfile>
+    <innerfile refid="_inner_core_8cpp">InnerCore.cpp</innerfile>
+    <innerfile refid="_scene_8cpp">Scene.cpp</innerfile>
+    <innerfile refid="_system_8cpp">System.cpp</innerfile>
+    <innerfile refid="_system_list_8cpp">SystemList.cpp</innerfile>
+    <innerfile refid="_world_8cpp">World.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/"/>
+  </compounddef>
+</doxygen>

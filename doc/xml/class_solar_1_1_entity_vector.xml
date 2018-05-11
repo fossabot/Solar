@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_solar_1_1_entity_vector" kind="class" prot="public" final="yes">
+    <compoundname>Solar::EntityVector</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_solar_1_1_entity_vector_1aa805715993a17e4429bab3a15f1f833d" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; *</type>
+        <definition>typedef std::shared_ptr&lt;Entity&gt;* Solar::EntityVector::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="16" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_solar_1_1_entity_vector_1af6f67807971586f7a7154941af2d91e9" prot="public" static="no">
+        <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; *</type>
+        <definition>typedef const std::shared_ptr&lt;Entity&gt;* Solar::EntityVector::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="17" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_entity_vector_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Scene</definition>
+        <argsstring></argsstring>
+        <name>Scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="13" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_entity_vector_1af18a9ee98e70982bfe2975391d7221a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class System</definition>
+        <argsstring></argsstring>
+        <name>System</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="14" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_entity_vector_1ae1843fa6539ffcfeda52547c8f78ddae" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Solar::EntityVector::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="20" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_entity_vector_1a8be73f9500c7d013cd88745394d9b218" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;Entity&gt; &gt; Solar::EntityVector::entities</definition>
+        <argsstring></argsstring>
+        <name>entities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="21" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1a6f9568d7cc121aaad6e0a3640ddff506" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::EntityVector::EntityVector</definition>
+        <argsstring>()</argsstring>
+        <name>EntityVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="24" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="3" bodyend="3"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1a08e7b57c98bc1ccd1377c64e2cbe47c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::EntityVector::optimizeFor</definition>
+        <argsstring>(unsigned int)</argsstring>
+        <name>optimizeFor</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>size</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="25" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1a504441f3213754de1486898f51ce1873" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Solar::EntityVector::getPos</definition>
+        <argsstring>(const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>getPos</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="26" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="16" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1a6f47ee4ec81b872c0f48c5d089b75ef0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::EntityVector::add</definition>
+        <argsstring>(const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="27" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="37" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1aa60d722ace0f98587b414436671c2927" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::EntityVector::remove</definition>
+        <argsstring>(const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+          <defname>entity</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="28" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="74" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1aab92e9fc3f3e592237df38bebcc4b7be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::EntityVector::find</definition>
+        <argsstring>(const std::shared_ptr&lt; Entity &gt; &amp;)</argsstring>
+        <name>find</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="29" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1a27509d885ea99abb190092e1bf1e5757" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::EntityVector::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="30" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1a23cd4c4f89e283f0f42bc724443e6cbb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::EntityVector::insert</definition>
+        <argsstring>(const std::shared_ptr&lt; Entity &gt; &amp;, int)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="31" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="10" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1aa28160ae43352c995aef94e439169529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>iterator</type>
+        <definition>Solar::EntityVector::iterator Solar::EntityVector::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="34" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1ac24b49a19d8b7b85e5d92f5de197012b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>Solar::EntityVector::const_iterator Solar::EntityVector::begin</definition>
+        <argsstring>() const </argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="35" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1ab0ac2a5aa8ec677401bc82857c7210ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>iterator</type>
+        <definition>Solar::EntityVector::iterator Solar::EntityVector::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="36" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1ae3819c22c329683bbf39733ef3da2a00" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>Solar::EntityVector::const_iterator Solar::EntityVector::end</definition>
+        <argsstring>() const </argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="37" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_entity_vector_1a6981f93ffff92a231cc4df783e9dd005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::EntityVector::~EntityVector</definition>
+        <argsstring>()</argsstring>
+        <name>~EntityVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="38" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/src/EntityVector.cpp" bodystart="118" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" line="12" column="1" bodyfile="/home/lerest_m/Desktop/Programmation/C++/ECS/Solar/include/EntityVector.hpp" bodystart="11" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_entity_vector_1a6f47ee4ec81b872c0f48c5d089b75ef0" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>add</name></member>
+      <member refid="class_solar_1_1_entity_vector_1aa28160ae43352c995aef94e439169529" prot="public" virt="non-virtual"><scope>Solar::EntityVector</scope><name>begin</name></member>
+      <member refid="class_solar_1_1_entity_vector_1ac24b49a19d8b7b85e5d92f5de197012b" prot="public" virt="non-virtual"><scope>Solar::EntityVector</scope><name>begin</name></member>
+      <member refid="class_solar_1_1_entity_vector_1a27509d885ea99abb190092e1bf1e5757" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>clear</name></member>
+      <member refid="class_solar_1_1_entity_vector_1af6f67807971586f7a7154941af2d91e9" prot="public" virt="non-virtual"><scope>Solar::EntityVector</scope><name>const_iterator</name></member>
+      <member refid="class_solar_1_1_entity_vector_1ab0ac2a5aa8ec677401bc82857c7210ac" prot="public" virt="non-virtual"><scope>Solar::EntityVector</scope><name>end</name></member>
+      <member refid="class_solar_1_1_entity_vector_1ae3819c22c329683bbf39733ef3da2a00" prot="public" virt="non-virtual"><scope>Solar::EntityVector</scope><name>end</name></member>
+      <member refid="class_solar_1_1_entity_vector_1a8be73f9500c7d013cd88745394d9b218" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>entities</name></member>
+      <member refid="class_solar_1_1_entity_vector_1a6f9568d7cc121aaad6e0a3640ddff506" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>EntityVector</name></member>
+      <member refid="class_solar_1_1_entity_vector_1aab92e9fc3f3e592237df38bebcc4b7be" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>find</name></member>
+      <member refid="class_solar_1_1_entity_vector_1a504441f3213754de1486898f51ce1873" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>getPos</name></member>
+      <member refid="class_solar_1_1_entity_vector_1a23cd4c4f89e283f0f42bc724443e6cbb" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>insert</name></member>
+      <member refid="class_solar_1_1_entity_vector_1aa805715993a17e4429bab3a15f1f833d" prot="public" virt="non-virtual"><scope>Solar::EntityVector</scope><name>iterator</name></member>
+      <member refid="class_solar_1_1_entity_vector_1a08e7b57c98bc1ccd1377c64e2cbe47c2" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>optimizeFor</name></member>
+      <member refid="class_solar_1_1_entity_vector_1aa60d722ace0f98587b414436671c2927" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_entity_vector_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>Scene</name></member>
+      <member refid="class_solar_1_1_entity_vector_1ae1843fa6539ffcfeda52547c8f78ddae" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>size</name></member>
+      <member refid="class_solar_1_1_entity_vector_1af18a9ee98e70982bfe2975391d7221a5" prot="private" virt="non-virtual"><scope>Solar::EntityVector</scope><name>System</name></member>
+      <member refid="class_solar_1_1_entity_vector_1a6981f93ffff92a231cc4df783e9dd005" prot="public" virt="non-virtual"><scope>Solar::EntityVector</scope><name>~EntityVector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

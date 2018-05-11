@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>include</compoundname>
+    <innerfile refid="_a_entity_script_8hpp">AEntityScript.hpp</innerfile>
+    <innerfile refid="_a_scene_script_8hpp">ASceneScript.hpp</innerfile>
+    <innerfile refid="_a_world_script_8hpp">AWorldScript.hpp</innerfile>
+    <innerfile refid="_component_8hpp">Component.hpp</innerfile>
+    <innerfile refid="_core_8hpp">Core.hpp</innerfile>
+    <innerfile refid="_entity_8hpp">Entity.hpp</innerfile>
+    <innerfile refid="_indexer_8hpp">Indexer.hpp</innerfile>
+    <innerfile refid="_inner_core_8hpp">InnerCore.hpp</innerfile>
+    <innerfile refid="_scene_8hpp">Scene.hpp</innerfile>
+    <innerfile refid="_system_8hpp">System.hpp</innerfile>
+    <innerfile refid="_system_list_8hpp">SystemList.hpp</innerfile>
+    <innerfile refid="_time_idx_8hpp">TimeIdx.hpp</innerfile>
+    <innerfile refid="_vector_8hpp">Vector.hpp</innerfile>
+    <innerfile refid="_world_8hpp">World.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/"/>
+  </compounddef>
+</doxygen>

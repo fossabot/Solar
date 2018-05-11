@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_system_1_1_event" kind="class" language="C++" prot="public">
+    <compoundname>Solar::System::Event</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_system_1_1_event_1af18a9ee98e70982bfe2975391d7221a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class System</definition>
+        <argsstring></argsstring>
+        <name>System</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" line="30" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_system_1_1_event_1a90c8ebb4b7bf43f957b48848676987ed" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Solar::System::Event::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" line="32" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_system_1_1_event_1a054820866c644c9666f376d859dddb0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void Solar::System::Event::set</definition>
+        <argsstring>()</argsstring>
+        <name>set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" line="36" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_system_1_1_event_1ab0f9fbc1243753942026a2b28298093f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool Solar::System::Event::is</definition>
+        <argsstring>() const</argsstring>
+        <name>is</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" line="43" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" line="29" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/System.hpp" bodystart="28" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_system_1_1_event_1ab0f9fbc1243753942026a2b28298093f" prot="public" virt="non-virtual"><scope>Solar::System::Event</scope><name>is</name></member>
+      <member refid="class_solar_1_1_system_1_1_event_1a054820866c644c9666f376d859dddb0e" prot="private" virt="non-virtual"><scope>Solar::System::Event</scope><name>set</name></member>
+      <member refid="class_solar_1_1_system_1_1_event_1af18a9ee98e70982bfe2975391d7221a5" prot="private" virt="non-virtual"><scope>Solar::System::Event</scope><name>System</name></member>
+      <member refid="class_solar_1_1_system_1_1_event_1a90c8ebb4b7bf43f957b48848676987ed" prot="private" virt="non-virtual"><scope>Solar::System::Event</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

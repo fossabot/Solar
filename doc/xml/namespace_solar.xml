@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespace_solar" kind="namespace" language="C++">
+    <compoundname>Solar</compoundname>
+    <innerclass refid="class_solar_1_1_a_entity_script" prot="public">Solar::AEntityScript</innerclass>
+    <innerclass refid="class_solar_1_1_a_scene_script" prot="public">Solar::ASceneScript</innerclass>
+    <innerclass refid="class_solar_1_1_a_world_script" prot="public">Solar::AWorldScript</innerclass>
+    <innerclass refid="class_solar_1_1_component" prot="public">Solar::Component</innerclass>
+    <innerclass refid="class_solar_1_1_core" prot="public">Solar::Core</innerclass>
+    <innerclass refid="class_solar_1_1_entity" prot="public">Solar::Entity</innerclass>
+    <innerclass refid="class_solar_1_1_indexer" prot="public">Solar::Indexer</innerclass>
+    <innerclass refid="class_solar_1_1_inner_core" prot="public">Solar::InnerCore</innerclass>
+    <innerclass refid="class_solar_1_1_scene" prot="public">Solar::Scene</innerclass>
+    <innerclass refid="class_solar_1_1_system" prot="public">Solar::System</innerclass>
+    <innerclass refid="class_solar_1_1_system_list" prot="public">Solar::SystemList</innerclass>
+    <innerclass refid="class_solar_1_1_time_idx" prot="public">Solar::TimeIdx</innerclass>
+    <innerclass refid="class_solar_1_1_vector" prot="public">Solar::Vector</innerclass>
+    <innerclass refid="class_solar_1_1_world" prot="public">Solar::World</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>General namespace containing all the ECS </para>    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/AEntityScript.hpp" line="8" column="1"/>
+  </compounddef>
+</doxygen>

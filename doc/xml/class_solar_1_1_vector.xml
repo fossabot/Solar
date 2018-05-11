@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_vector" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Solar::Vector</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_solar_1_1_vector_1a1894c50bcd40a690963c100b8a690a92" prot="public" static="no">
+        <type>std::shared_ptr&lt; T &gt; *</type>
+        <definition>typedef std::shared_ptr&lt;T&gt;* Solar::Vector&lt; T &gt;::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="17" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_solar_1_1_vector_1a5e4f37932a0dc774926ad1d7097e14b6" prot="public" static="no">
+        <type>const std::shared_ptr&lt; T &gt; *</type>
+        <definition>typedef const std::shared_ptr&lt;T&gt;* Solar::Vector&lt; T &gt;::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="18" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_vector_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Scene</definition>
+        <argsstring></argsstring>
+        <name>Scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="14" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_vector_1af18a9ee98e70982bfe2975391d7221a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class System</definition>
+        <argsstring></argsstring>
+        <name>System</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="15" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_vector_1aee7de13ea8582240762f2b57d2ea2889" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Solar::Vector&lt; T &gt;::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="21" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_vector_1ae0aeabb90596b535d857f49acdb565e6" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; T &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;T&gt; &gt; Solar::Vector&lt; T &gt;::items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="22" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_vector_1a2c6b9f407d21d8af5168e040bdb45c6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Vector&lt; T &gt;::Vector</definition>
+        <argsstring>()</argsstring>
+        <name>Vector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="25" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1a57c75653c78d3c35fb92259b8bc9b755" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Vector&lt; T &gt;::optimizeFor</definition>
+        <argsstring>(unsigned int size)</argsstring>
+        <name>optimizeFor</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="27" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1ac91e3fa212cbf83354529373031d2b36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Solar::Vector&lt; T &gt;::getPos</definition>
+        <argsstring>(const std::shared_ptr&lt; T &gt; &amp;item)</argsstring>
+        <name>getPos</name>
+        <param>
+          <type>const std::shared_ptr&lt; T &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="32" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="32" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1a3f063efaa3c27f943a7d8c49816a5af8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Vector&lt; T &gt;::insert</definition>
+        <argsstring>(const std::shared_ptr&lt; T &gt; &amp;item, int pos)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>const std::shared_ptr&lt; T &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="52" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="52" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_vector_1a0a2fb1abd018e034cad7ece2d789b846" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Vector&lt; T &gt;::add</definition>
+        <argsstring>(const std::shared_ptr&lt; T &gt; &amp;item)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const std::shared_ptr&lt; T &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="59" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="59" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1a315cd366567b3bbc2a5664a60b691b4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::Vector&lt; T &gt;::remove</definition>
+        <argsstring>(const std::shared_ptr&lt; T &gt; &amp;item)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const std::shared_ptr&lt; T &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="96" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="96" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1a4b02c7b0e77a7bee0671e80ef92d1c2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::Vector&lt; T &gt;::find</definition>
+        <argsstring>(const std::shared_ptr&lt; T &gt; &amp;item)</argsstring>
+        <name>find</name>
+        <param>
+          <type>const std::shared_ptr&lt; T &gt; &amp;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="108" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1ab393abc7a5b6c2a97aa70fdae83b9361" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Vector&lt; T &gt;::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="113" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1a10094569f9ae125348855d109111464f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>iterator</type>
+        <definition>iterator Solar::Vector&lt; T &gt;::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="120" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1a8faeaebeda04d76b34a26f33a7279feb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator Solar::Vector&lt; T &gt;::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="125" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1a37173e2fab143522c4c687413a4ce4ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>iterator</type>
+        <definition>iterator Solar::Vector&lt; T &gt;::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="130" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1aae0799a55d5789d21929bbc46b1c5d58" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator Solar::Vector&lt; T &gt;::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="135" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_vector_1af3193692ea1e649db7ac5611f92f05b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Vector&lt; T &gt;::~Vector</definition>
+        <argsstring>()</argsstring>
+        <name>~Vector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="140" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="140" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" line="13" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Vector.hpp" bodystart="12" bodyend="145"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_vector_1a0a2fb1abd018e034cad7ece2d789b846" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>add</name></member>
+      <member refid="class_solar_1_1_vector_1a10094569f9ae125348855d109111464f" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>begin</name></member>
+      <member refid="class_solar_1_1_vector_1a8faeaebeda04d76b34a26f33a7279feb" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>begin</name></member>
+      <member refid="class_solar_1_1_vector_1ab393abc7a5b6c2a97aa70fdae83b9361" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>clear</name></member>
+      <member refid="class_solar_1_1_vector_1a5e4f37932a0dc774926ad1d7097e14b6" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>const_iterator</name></member>
+      <member refid="class_solar_1_1_vector_1a37173e2fab143522c4c687413a4ce4ad" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>end</name></member>
+      <member refid="class_solar_1_1_vector_1aae0799a55d5789d21929bbc46b1c5d58" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>end</name></member>
+      <member refid="class_solar_1_1_vector_1a4b02c7b0e77a7bee0671e80ef92d1c2c" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>find</name></member>
+      <member refid="class_solar_1_1_vector_1ac91e3fa212cbf83354529373031d2b36" prot="private" virt="non-virtual"><scope>Solar::Vector</scope><name>getPos</name></member>
+      <member refid="class_solar_1_1_vector_1a3f063efaa3c27f943a7d8c49816a5af8" prot="private" virt="non-virtual"><scope>Solar::Vector</scope><name>insert</name></member>
+      <member refid="class_solar_1_1_vector_1ae0aeabb90596b535d857f49acdb565e6" prot="private" virt="non-virtual"><scope>Solar::Vector</scope><name>items</name></member>
+      <member refid="class_solar_1_1_vector_1a1894c50bcd40a690963c100b8a690a92" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>iterator</name></member>
+      <member refid="class_solar_1_1_vector_1a57c75653c78d3c35fb92259b8bc9b755" prot="private" virt="non-virtual"><scope>Solar::Vector</scope><name>optimizeFor</name></member>
+      <member refid="class_solar_1_1_vector_1a315cd366567b3bbc2a5664a60b691b4c" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_vector_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" virt="non-virtual"><scope>Solar::Vector</scope><name>Scene</name></member>
+      <member refid="class_solar_1_1_vector_1aee7de13ea8582240762f2b57d2ea2889" prot="private" virt="non-virtual"><scope>Solar::Vector</scope><name>size</name></member>
+      <member refid="class_solar_1_1_vector_1af18a9ee98e70982bfe2975391d7221a5" prot="private" virt="non-virtual"><scope>Solar::Vector</scope><name>System</name></member>
+      <member refid="class_solar_1_1_vector_1a2c6b9f407d21d8af5168e040bdb45c6b" prot="private" virt="non-virtual"><scope>Solar::Vector</scope><name>Vector</name></member>
+      <member refid="class_solar_1_1_vector_1af3193692ea1e649db7ac5611f92f05b5" prot="public" virt="non-virtual"><scope>Solar::Vector</scope><name>~Vector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

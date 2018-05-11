@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_core" kind="class" language="C++" prot="public">
+    <compoundname>Solar::Core</compoundname>
+    <includes local="no">Core.hpp</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_core_1aa23b0973d1e89f581f7391a7c2817f03" prot="private" static="yes" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_inner_core" kindref="compound">InnerCore</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Solar::InnerCore &gt; Solar::Core::core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="26" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_core_1a2e7e4eb720eaf381e75225be486b093a" prot="private" static="yes" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Solar::Core::instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="27" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_core_1a7b355f21dbaa5d016e879de00da7201f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Core::Core</definition>
+        <argsstring>()</argsstring>
+        <name>Core</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Allow to create an instance of the ECS <ref refid="class_solar_1_1_core" kindref="compound">Core</ref></para><para><simplesect kind="warning"><para>The core use a singleton pattern, so instanciate a new <ref refid="class_solar_1_1_core" kindref="compound">Core</ref> will kept the data from the old one </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="37" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Core.cpp" bodystart="7" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_core_1ad054e37d1a30edbdeb895dae29ccf926" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; Solar::World &gt; &amp; Solar::Core::getPrimalWorld</definition>
+        <argsstring>() const</argsstring>
+        <name>getPrimalWorld</name>
+        <briefdescription>
+<para>Access to the primal world. </para>        </briefdescription>
+        <detaileddescription>
+<para>Allow to use the primal world by granting access to it. The primal world will always be active and be updated last</para><para><simplesect kind="return"><para>The primal world </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="46" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Core.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_core_1abf43230ac4a07da0b04a59fc33d0647e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Solar::Entity &gt; Solar::Core::createEntity</definition>
+        <argsstring>(const std::string &amp;name) const</argsstring>
+        <name>createEntity</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Create an <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Create a new <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> with the given name</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The freshly created <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="55" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Core.cpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_core_1a6251dbbd1f92d980f3dc7f55d0a3a3f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Solar::World &gt; Solar::Core::createWorld</definition>
+        <argsstring>(const std::string &amp;name) const</argsstring>
+        <name>createWorld</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="class_solar_1_1_world" kindref="compound">World</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Create a new <ref refid="class_solar_1_1_world" kindref="compound">World</ref> with the given name</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the <ref refid="class_solar_1_1_world" kindref="compound">World</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The freshly created <ref refid="class_solar_1_1_world" kindref="compound">World</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="64" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Core.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_core_1a046c88285a40424c4670e5f15bfdba32" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Solar::Scene &gt; Solar::Core::createScene</definition>
+        <argsstring>(const std::string &amp;name) const</argsstring>
+        <name>createScene</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Create a new <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> with the given name</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The freshly created <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="73" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Core.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_core_1a4c0a788159a443bdcaad900602982add" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::Core::update</definition>
+        <argsstring>(const TimeIdx &amp;idx)</argsstring>
+        <name>update</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_time_idx" kindref="compound">TimeIdx</ref> &amp;</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Update the ECS. </para>        </briefdescription>
+        <detaileddescription>
+<para>Update the current world the the primal world with the given <ref refid="class_solar_1_1_time_idx" kindref="compound">TimeIdx</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_solar_1_1_time_idx" kindref="compound">TimeIdx</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="81" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Core.cpp" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_core_1aeb93ff907f6e5b488a49a22bca79fdb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::Core::~Core</definition>
+        <argsstring>()</argsstring>
+        <name>~Core</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Destroy the <ref refid="class_solar_1_1_core" kindref="compound">Core</ref> and free all memory</para><para><simplesect kind="warning"><para>Destroy the <ref refid="class_solar_1_1_core" kindref="compound">Core</ref> only if it is the last <ref refid="class_solar_1_1_core" kindref="compound">Core</ref> instance </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="89" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/Core.cpp" bodystart="42" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ECS <ref refid="class_solar_1_1_core" kindref="compound">Core</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>First thing to create to use the ECS<linebreak/>
+ The <ref refid="class_solar_1_1_core" kindref="compound">Core</ref> allow to:<linebreak/>
+<itemizedlist>
+<listitem><para>Create a new <ref refid="class_solar_1_1_entity" kindref="compound">Entity</ref><linebreak/>
+</para></listitem><listitem><para>Create a new <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref><linebreak/>
+</para></listitem><listitem><para>Create a new <ref refid="class_solar_1_1_world" kindref="compound">World</ref><linebreak/>
+</para></listitem><listitem><para>Update the current <ref refid="class_solar_1_1_world" kindref="compound">World</ref> and the primal <ref refid="class_solar_1_1_world" kindref="compound">World</ref> </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" line="24" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Core.hpp" bodystart="23" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_core_1aa23b0973d1e89f581f7391a7c2817f03" prot="private" virt="non-virtual"><scope>Solar::Core</scope><name>core</name></member>
+      <member refid="class_solar_1_1_core_1a7b355f21dbaa5d016e879de00da7201f" prot="public" virt="non-virtual"><scope>Solar::Core</scope><name>Core</name></member>
+      <member refid="class_solar_1_1_core_1abf43230ac4a07da0b04a59fc33d0647e" prot="public" virt="non-virtual"><scope>Solar::Core</scope><name>createEntity</name></member>
+      <member refid="class_solar_1_1_core_1a046c88285a40424c4670e5f15bfdba32" prot="public" virt="non-virtual"><scope>Solar::Core</scope><name>createScene</name></member>
+      <member refid="class_solar_1_1_core_1a6251dbbd1f92d980f3dc7f55d0a3a3f4" prot="public" virt="non-virtual"><scope>Solar::Core</scope><name>createWorld</name></member>
+      <member refid="class_solar_1_1_core_1ad054e37d1a30edbdeb895dae29ccf926" prot="public" virt="non-virtual"><scope>Solar::Core</scope><name>getPrimalWorld</name></member>
+      <member refid="class_solar_1_1_core_1a2e7e4eb720eaf381e75225be486b093a" prot="private" virt="non-virtual"><scope>Solar::Core</scope><name>instance</name></member>
+      <member refid="class_solar_1_1_core_1a4c0a788159a443bdcaad900602982add" prot="public" virt="non-virtual"><scope>Solar::Core</scope><name>update</name></member>
+      <member refid="class_solar_1_1_core_1aeb93ff907f6e5b488a49a22bca79fdb8" prot="public" virt="non-virtual"><scope>Solar::Core</scope><name>~Core</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_component" kind="class" language="C++" prot="public">
+    <compoundname>Solar::Component</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_component_1ab80332d14fa1bd5a8e0c2c5c87983bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Solar::Component::~Component</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Component</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Component.hpp" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Component.hpp" line="7" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/Component.hpp" bodystart="6" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_component_1ab80332d14fa1bd5a8e0c2c5c87983bc7" prot="public" virt="virtual"><scope>Solar::Component</scope><name>~Component</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

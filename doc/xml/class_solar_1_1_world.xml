@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_solar_1_1_world" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Solar::World</compoundname>
+    <includes local="no">World.hpp</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_solar_1_1_world_1a22b7f6ee0d77e67446edf06eead52c3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class InnerCore</definition>
+        <argsstring></argsstring>
+        <name>InnerCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="25" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_solar_1_1_world_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Scene</definition>
+        <argsstring></argsstring>
+        <name>Scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="26" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_solar_1_1_world_1afe10f2e6dad9e7b37cda05af03861cbb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Solar::World::primal</definition>
+        <argsstring></argsstring>
+        <name>primal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="28" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_world_1af0db52ee398cd83681381beb870aab1c" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Solar::World::idx</definition>
+        <argsstring></argsstring>
+        <name>idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="29" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_world_1acbeedc2ed3398c8f62e38b809d551241" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_inner_core" kindref="compound">InnerCore</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;InnerCore&gt; Solar::World::core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="30" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_world_1af53360073b4037196db99dbacef525a1" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_a_world_script" kindref="compound">AWorldScript</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;AWorldScript&gt; Solar::World::script</definition>
+        <argsstring></argsstring>
+        <name>script</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="31" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_world_1ac9202aa8ff6054934bc9385d384a1b4e" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Solar::World::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="32" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_world_1a1f83dbd13728b20fdf17f795321a0055" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;World&gt; Solar::World::own</definition>
+        <argsstring></argsstring>
+        <name>own</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="33" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_world_1aa55a5fb522bfa6168feb4634273ada26" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;World&gt; Solar::World::mother</definition>
+        <argsstring></argsstring>
+        <name>mother</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="34" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_world_1af512ce9b545c424e9c3841e9ef41d180" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; std::string, std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &gt;</type>
+        <definition>std::unordered_map&lt;std::string, std::shared_ptr&lt;World&gt; &gt; Solar::World::childrens</definition>
+        <argsstring></argsstring>
+        <name>childrens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="35" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_world_1afddf45c0ff473a65f9eb1dd2e78ad836" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Scene&gt; Solar::World::defaultScene</definition>
+        <argsstring></argsstring>
+        <name>defaultScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="36" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_solar_1_1_world_1a583572bd59f1d4d11be7e995fcc85f86" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;Scene&gt; &gt; Solar::World::scenes</definition>
+        <argsstring></argsstring>
+        <name>scenes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="37" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_solar_1_1_world_1a0f4f9d113d6564f50b7a4aa36fb50fbf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::World::World</definition>
+        <argsstring>(const std::weak_ptr&lt; InnerCore &gt; &amp;, bool, const std::string &amp;, size_t)</argsstring>
+        <name>World</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_inner_core" kindref="compound">InnerCore</ref> &gt; &amp;</type>
+          <defname>core</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <defname>primal</defname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <defname>idx</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="40" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="6" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a568666acb26078731a95c86a693b7040" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Solar::World::getIdx</definition>
+        <argsstring>() const</argsstring>
+        <name>getIdx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="41" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1afd55596a1bbdaa9d6b69863cc3dc19d6" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::World::isPrimal</definition>
+        <argsstring>() const</argsstring>
+        <name>isPrimal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="42" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a676bbb4bd224106e6062c755b5f7675e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt;</type>
+        <definition>const std::shared_ptr&lt; Solar::Scene &gt; Solar::World::getScene</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>getScene</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="43" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="17" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a5fdf19d44df6766c878464b38d539b4f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::replaceSceneBy</definition>
+        <argsstring>(const std::weak_ptr&lt; Scene &gt; &amp;, const std::shared_ptr&lt; Scene &gt; &amp;)</argsstring>
+        <name>replaceSceneBy</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="44" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="35" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a9967c86dd7bc19dfae096225a2e2a32d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::setOwn</definition>
+        <argsstring>(const std::weak_ptr&lt; World &gt; &amp;)</argsstring>
+        <name>setOwn</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="45" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="165" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a60d20bd07219d78c0d41e4dc3a7b5718" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Solar::World::compare</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>compare</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="46" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1acd8619053d9f539ce1ea7cfbf72a2657" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::releaseMother</definition>
+        <argsstring>()</argsstring>
+        <name>releaseMother</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="47" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1aa8fc9db55bfdb30d06399329ae04c540" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::setMotherWorld</definition>
+        <argsstring>(const std::weak_ptr&lt; World &gt; &amp;)</argsstring>
+        <name>setMotherWorld</name>
+        <param>
+          <type>const std::weak_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+          <defname>scene</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="48" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1aa1f961a144dbed3f023ee208e5eca246" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::load</definition>
+        <argsstring>()</argsstring>
+        <name>load</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="49" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="128" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a127fff9b367b953574d3a177fdcf51e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::unload</definition>
+        <argsstring>()</argsstring>
+        <name>unload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="50" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="139" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_solar_1_1_world_1a98ef34c7ccb93fa73dd7e05c268bdb88" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; Solar::Scene &gt; &amp; Solar::World::getDefaultScene</definition>
+        <argsstring>() const</argsstring>
+        <name>getDefaultScene</name>
+        <briefdescription>
+<para>Return the default <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Return the <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> created at the <ref refid="class_solar_1_1_world" kindref="compound">World</ref> creation</para><para><simplesect kind="return"><para>The default <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> of this <ref refid="class_solar_1_1_world" kindref="compound">World</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="60" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a89e157dafb11b47f65182945d537d213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::setWorldScript</definition>
+        <argsstring>(const std::shared_ptr&lt; AWorldScript &gt; &amp;script)</argsstring>
+        <name>setWorldScript</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_a_world_script" kindref="compound">AWorldScript</ref> &gt; &amp;</type>
+          <declname>script</declname>
+        </param>
+        <briefdescription>
+<para>Set the script for this world. </para>        </briefdescription>
+        <detaileddescription>
+<para>Set the script for this world. The <ref refid="class_solar_1_1_a_world_script" kindref="compound">AWorldScript</ref> allow to add specific action to the update of the <ref refid="class_solar_1_1_world" kindref="compound">World</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>script</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_solar_1_1_a_world_script" kindref="compound">AWorldScript</ref> to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="68" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="27" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a1e7c75213a1d79f2455ca8c63ecedd2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::add</definition>
+        <argsstring>(const std::shared_ptr&lt; World &gt; &amp;world)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+          <declname>world</declname>
+        </param>
+        <briefdescription>
+<para>Add a children to this <ref refid="class_solar_1_1_world" kindref="compound">World</ref> tree node. </para>        </briefdescription>
+        <detaileddescription>
+<para>Add the given world as a children to this <ref refid="class_solar_1_1_world" kindref="compound">World</ref> tree node</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>world</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Children to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="76" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="72" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a97e61da15bb26a402a8c02566ca5689f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::add</definition>
+        <argsstring>(const std::shared_ptr&lt; Scene &gt; &amp;)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> &gt; &amp;</type>
+          <defname>toAdd</defname>
+        </param>
+        <briefdescription>
+<para>Add a <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> node to this <ref refid="class_solar_1_1_world" kindref="compound">World</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Add the given <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> node as a &quot;mother&quot; <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> node to this <ref refid="class_solar_1_1_world" kindref="compound">World</ref> tree node</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>world</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Children to add </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="84" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="88" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a5826aa2e1b50b4852740722e622d7a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::update</definition>
+        <argsstring>(const TimeIdx &amp;idx)</argsstring>
+        <name>update</name>
+        <param>
+          <type>const <ref refid="class_solar_1_1_time_idx" kindref="compound">TimeIdx</ref> &amp;</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Update this <ref refid="class_solar_1_1_world" kindref="compound">World</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Update all the active <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> in this <ref refid="class_solar_1_1_world" kindref="compound">World</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_solar_1_1_time_idx" kindref="compound">TimeIdx</ref> for the update of the active <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="92" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1af1eed09115b6571590e86b14e76506ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; Solar::World::getName</definition>
+        <argsstring>() const</argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>Return the name. </para>        </briefdescription>
+        <detaileddescription>
+<para>Return the name of this <ref refid="class_solar_1_1_world" kindref="compound">World</ref></para><para><simplesect kind="return"><para>The name of this <ref refid="class_solar_1_1_world" kindref="compound">World</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="100" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a36ea84067e01ec77618fcc7897af6257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::goToWorld</definition>
+        <argsstring>()</argsstring>
+        <name>goToWorld</name>
+        <briefdescription>
+<para>Set the current active <ref refid="class_solar_1_1_world" kindref="compound">World</ref> to the mother. </para>        </briefdescription>
+        <detaileddescription>
+<para>Set the current active <ref refid="class_solar_1_1_world" kindref="compound">World</ref> to mother of this <ref refid="class_solar_1_1_world" kindref="compound">World</ref> tree node </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="106" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="105" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a89e1bc2b740c3ede37c54e35431d6048" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::goToWorld</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>goToWorld</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Set the current active <ref refid="class_solar_1_1_world" kindref="compound">World</ref> by his name. </para>        </briefdescription>
+        <detaileddescription>
+<para>Set the current active <ref refid="class_solar_1_1_world" kindref="compound">World</ref> to one of the children from this <ref refid="class_solar_1_1_world" kindref="compound">World</ref> tree node which have the given name</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the <ref refid="class_solar_1_1_world" kindref="compound">World</ref> to switch </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="114" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="117" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a301cfb188b98e5921a2c4ac3f883f096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::remove</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Remove a <ref refid="class_solar_1_1_world" kindref="compound">World</ref> by his name. </para>        </briefdescription>
+        <detaileddescription>
+<para>Remove the <ref refid="class_solar_1_1_world" kindref="compound">World</ref> from this <ref refid="class_solar_1_1_world" kindref="compound">World</ref> tree node which have the given name</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the <ref refid="class_solar_1_1_world" kindref="compound">World</ref> to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="122" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="150" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1a1ecb2d9297894285ce2b2c283997cbed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Solar::World::remove</definition>
+        <argsstring>(const std::shared_ptr&lt; World &gt; &amp;world)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_solar_1_1_world" kindref="compound">World</ref> &gt; &amp;</type>
+          <declname>world</declname>
+        </param>
+        <briefdescription>
+<para>Remove a <ref refid="class_solar_1_1_world" kindref="compound">World</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Remove the given <ref refid="class_solar_1_1_world" kindref="compound">World</ref> from this <ref refid="class_solar_1_1_world" kindref="compound">World</ref> tree node</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>world</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_solar_1_1_world" kindref="compound">World</ref> to remove </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="130" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_solar_1_1_world_1acf401f808a9cc38b2af96777d52e35bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Solar::World::~World</definition>
+        <argsstring>()</argsstring>
+        <name>~World</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Destroy the <ref refid="class_solar_1_1_world" kindref="compound">World</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="136" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/src/World.cpp" bodystart="186" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container of the <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="class_solar_1_1_world" kindref="compound">World</ref> is a node in the <ref refid="class_solar_1_1_world" kindref="compound">World</ref> tree. The <ref refid="class_solar_1_1_world" kindref="compound">World</ref> tree first node is the default <ref refid="class_solar_1_1_world" kindref="compound">World</ref> in the <ref refid="class_solar_1_1_core" kindref="compound">Core</ref> (Core::getDefaultWorld)<linebreak/>
+ The default <ref refid="class_solar_1_1_world" kindref="compound">World</ref> is always considered active. There can be only one other active <ref refid="class_solar_1_1_world" kindref="compound">World</ref>, the current <ref refid="class_solar_1_1_world" kindref="compound">World</ref>.<linebreak/>
+ To change the current world simply call <ref refid="class_solar_1_1_world_1a89e1bc2b740c3ede37c54e35431d6048" kindref="member">World::goToWorld(const std::string &amp;name)</ref> on the current <ref refid="class_solar_1_1_world" kindref="compound">World</ref> with the name of one of his children or <ref refid="class_solar_1_1_world_1a36ea84067e01ec77618fcc7897af6257" kindref="member">World::goToWorld()</ref> to set the upper node as the current <ref refid="class_solar_1_1_world" kindref="compound">World</ref><linebreak/>
+ When a world is updated (manually or through <ref refid="class_solar_1_1_core_1a4c0a788159a443bdcaad900602982add" kindref="member">Core::update</ref>), it update all his active <ref refid="class_solar_1_1_scene" kindref="compound">Scene</ref> node.<linebreak/>
+</para><para><simplesect kind="see"><para><ref refid="class_solar_1_1_core" kindref="compound">Core</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" line="24" column="1" bodyfile="/home/mewen/Desktop/Programmation/C++/ECS/Solar/include/World.hpp" bodystart="23" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_solar_1_1_world_1a1e7c75213a1d79f2455ca8c63ecedd2f" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>add</name></member>
+      <member refid="class_solar_1_1_world_1a97e61da15bb26a402a8c02566ca5689f" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>add</name></member>
+      <member refid="class_solar_1_1_world_1af512ce9b545c424e9c3841e9ef41d180" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>childrens</name></member>
+      <member refid="class_solar_1_1_world_1a60d20bd07219d78c0d41e4dc3a7b5718" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>compare</name></member>
+      <member refid="class_solar_1_1_world_1acbeedc2ed3398c8f62e38b809d551241" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>core</name></member>
+      <member refid="class_solar_1_1_world_1afddf45c0ff473a65f9eb1dd2e78ad836" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>defaultScene</name></member>
+      <member refid="class_solar_1_1_world_1a98ef34c7ccb93fa73dd7e05c268bdb88" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>getDefaultScene</name></member>
+      <member refid="class_solar_1_1_world_1a568666acb26078731a95c86a693b7040" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>getIdx</name></member>
+      <member refid="class_solar_1_1_world_1af1eed09115b6571590e86b14e76506ac" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>getName</name></member>
+      <member refid="class_solar_1_1_world_1a676bbb4bd224106e6062c755b5f7675e" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>getScene</name></member>
+      <member refid="class_solar_1_1_world_1a36ea84067e01ec77618fcc7897af6257" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>goToWorld</name></member>
+      <member refid="class_solar_1_1_world_1a89e1bc2b740c3ede37c54e35431d6048" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>goToWorld</name></member>
+      <member refid="class_solar_1_1_world_1af0db52ee398cd83681381beb870aab1c" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>idx</name></member>
+      <member refid="class_solar_1_1_world_1a22b7f6ee0d77e67446edf06eead52c3b" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>InnerCore</name></member>
+      <member refid="class_solar_1_1_world_1afd55596a1bbdaa9d6b69863cc3dc19d6" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>isPrimal</name></member>
+      <member refid="class_solar_1_1_world_1aa1f961a144dbed3f023ee208e5eca246" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>load</name></member>
+      <member refid="class_solar_1_1_world_1aa55a5fb522bfa6168feb4634273ada26" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>mother</name></member>
+      <member refid="class_solar_1_1_world_1ac9202aa8ff6054934bc9385d384a1b4e" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>name</name></member>
+      <member refid="class_solar_1_1_world_1a1f83dbd13728b20fdf17f795321a0055" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>own</name></member>
+      <member refid="class_solar_1_1_world_1afe10f2e6dad9e7b37cda05af03861cbb" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>primal</name></member>
+      <member refid="class_solar_1_1_world_1acd8619053d9f539ce1ea7cfbf72a2657" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>releaseMother</name></member>
+      <member refid="class_solar_1_1_world_1a301cfb188b98e5921a2c4ac3f883f096" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_world_1a1ecb2d9297894285ce2b2c283997cbed" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>remove</name></member>
+      <member refid="class_solar_1_1_world_1a5fdf19d44df6766c878464b38d539b4f" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>replaceSceneBy</name></member>
+      <member refid="class_solar_1_1_world_1a032858ae1fe02d2d1170981c2af2d67c" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>Scene</name></member>
+      <member refid="class_solar_1_1_world_1a583572bd59f1d4d11be7e995fcc85f86" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>scenes</name></member>
+      <member refid="class_solar_1_1_world_1af53360073b4037196db99dbacef525a1" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>script</name></member>
+      <member refid="class_solar_1_1_world_1aa8fc9db55bfdb30d06399329ae04c540" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>setMotherWorld</name></member>
+      <member refid="class_solar_1_1_world_1a9967c86dd7bc19dfae096225a2e2a32d" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>setOwn</name></member>
+      <member refid="class_solar_1_1_world_1a89e157dafb11b47f65182945d537d213" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>setWorldScript</name></member>
+      <member refid="class_solar_1_1_world_1a127fff9b367b953574d3a177fdcf51e2" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>unload</name></member>
+      <member refid="class_solar_1_1_world_1a5826aa2e1b50b4852740722e622d7a34" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>update</name></member>
+      <member refid="class_solar_1_1_world_1a0f4f9d113d6564f50b7a4aa36fb50fbf" prot="private" virt="non-virtual"><scope>Solar::World</scope><name>World</name></member>
+      <member refid="class_solar_1_1_world_1acf401f808a9cc38b2af96777d52e35bb" prot="public" virt="non-virtual"><scope>Solar::World</scope><name>~World</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

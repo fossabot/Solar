@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="class_solar_1_1_a_entity_script" kind="class"><name>Solar::AEntityScript</name>
+    <member refid="class_solar_1_1_a_entity_script_1a614439ccac0344926adc4c0165d64060" kind="friend"><name>Entity</name></member>
+    <member refid="class_solar_1_1_a_entity_script_1a522fcc7f20ef5cc8c4555c51ea64dc77" kind="variable"><name>entity</name></member>
+    <member refid="class_solar_1_1_a_entity_script_1afecccf14a91409e3bfb736ded8eb53cb" kind="function"><name>setEntity</name></member>
+    <member refid="class_solar_1_1_a_entity_script_1a389464951dee4546b9ac15b471121bea" kind="function"><name>destroyEntity</name></member>
+    <member refid="class_solar_1_1_a_entity_script_1a114b7b866f686fbb5bb983b33866170c" kind="function"><name>~AEntityScript</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_a_scene_script" kind="class"><name>Solar::ASceneScript</name>
+    <member refid="class_solar_1_1_a_scene_script_1a032858ae1fe02d2d1170981c2af2d67c" kind="friend"><name>Scene</name></member>
+    <member refid="class_solar_1_1_a_scene_script_1a3cd22c84d1ed86e31212871462fc210c" kind="variable"><name>scene</name></member>
+    <member refid="class_solar_1_1_a_scene_script_1a6f18132c92ba1d60487278b2123e6941" kind="function"><name>setScene</name></member>
+    <member refid="class_solar_1_1_a_scene_script_1ad8e775ca10c0261ccda37d8264324f8e" kind="function"><name>receive</name></member>
+    <member refid="class_solar_1_1_a_scene_script_1ac72e87df21188aa3616d9bb760ddeb5c" kind="function"><name>receive</name></member>
+    <member refid="class_solar_1_1_a_scene_script_1ab9c8e3486f655003b36a09dc2b88f343" kind="function"><name>init</name></member>
+    <member refid="class_solar_1_1_a_scene_script_1a5010ae3be54ed41595b28c3a4a28d677" kind="function"><name>destroy</name></member>
+    <member refid="class_solar_1_1_a_scene_script_1a9bcad57f371be84a1b8505beff009ae1" kind="function"><name>update</name></member>
+    <member refid="class_solar_1_1_a_scene_script_1aaf808025be7b5d8382ad3d76be0eae98" kind="function"><name>~ASceneScript</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_a_world_script" kind="class"><name>Solar::AWorldScript</name>
+    <member refid="class_solar_1_1_a_world_script_1a7b4bcdf992c21ae83363f25df05b1d25" kind="friend"><name>World</name></member>
+    <member refid="class_solar_1_1_a_world_script_1a05a42117bf0474f19fe0e51793d41197" kind="variable"><name>world</name></member>
+    <member refid="class_solar_1_1_a_world_script_1ab2eb2ae877fc4bcd6ef7138022a7ba60" kind="function"><name>setWorld</name></member>
+    <member refid="class_solar_1_1_a_world_script_1af2d94ef1cb7ee874e5c45e56b3a41363" kind="function"><name>init</name></member>
+    <member refid="class_solar_1_1_a_world_script_1a969677b1c0a6305c235eacc08cde4361" kind="function"><name>destroy</name></member>
+    <member refid="class_solar_1_1_a_world_script_1a6eda11647c847f466236bc624f6962f5" kind="function"><name>~AWorldScript</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_component" kind="class"><name>Solar::Component</name>
+    <member refid="class_solar_1_1_component_1ab80332d14fa1bd5a8e0c2c5c87983bc7" kind="function"><name>~Component</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_core" kind="class"><name>Solar::Core</name>
+    <member refid="class_solar_1_1_core_1aa23b0973d1e89f581f7391a7c2817f03" kind="variable"><name>core</name></member>
+    <member refid="class_solar_1_1_core_1a2e7e4eb720eaf381e75225be486b093a" kind="variable"><name>instance</name></member>
+    <member refid="class_solar_1_1_core_1a7b355f21dbaa5d016e879de00da7201f" kind="function"><name>Core</name></member>
+    <member refid="class_solar_1_1_core_1ad054e37d1a30edbdeb895dae29ccf926" kind="function"><name>getPrimalWorld</name></member>
+    <member refid="class_solar_1_1_core_1abf43230ac4a07da0b04a59fc33d0647e" kind="function"><name>createEntity</name></member>
+    <member refid="class_solar_1_1_core_1a6251dbbd1f92d980f3dc7f55d0a3a3f4" kind="function"><name>createWorld</name></member>
+    <member refid="class_solar_1_1_core_1a046c88285a40424c4670e5f15bfdba32" kind="function"><name>createScene</name></member>
+    <member refid="class_solar_1_1_core_1a4c0a788159a443bdcaad900602982add" kind="function"><name>update</name></member>
+    <member refid="class_solar_1_1_core_1aeb93ff907f6e5b488a49a22bca79fdb8" kind="function"><name>~Core</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_entity" kind="class"><name>Solar::Entity</name>
+    <member refid="class_solar_1_1_entity_1a22b7f6ee0d77e67446edf06eead52c3b" kind="friend"><name>InnerCore</name></member>
+    <member refid="class_solar_1_1_entity_1a032858ae1fe02d2d1170981c2af2d67c" kind="friend"><name>Scene</name></member>
+    <member refid="class_solar_1_1_entity_1af18a9ee98e70982bfe2975391d7221a5" kind="friend"><name>System</name></member>
+    <member refid="class_solar_1_1_entity_1ad357a1c1ce963e42b9b96793ab2ede7d" kind="variable"><name>idx</name></member>
+    <member refid="class_solar_1_1_entity_1a226525c95f08a25d794dab399b025bb6" kind="variable"><name>id</name></member>
+    <member refid="class_solar_1_1_entity_1af7ab243f2970767d1320c8bbde949af1" kind="variable"><name>components</name></member>
+    <member refid="class_solar_1_1_entity_1ae05a3191578a8bd7fec6995032b34233" kind="variable"><name>core</name></member>
+    <member refid="class_solar_1_1_entity_1a364498e3b07347e4c2c7b5b31679434f" kind="variable"><name>own</name></member>
+    <member refid="class_solar_1_1_entity_1a09a37a00c283528a40ba8ed9251982f5" kind="variable"><name>scene</name></member>
+    <member refid="class_solar_1_1_entity_1a480c0f66d146764f366aa80ebbf58c32" kind="variable"><name>script</name></member>
+    <member refid="class_solar_1_1_entity_1a35379c94e785050dcc9a6f20ed59abac" kind="function"><name>Entity</name></member>
+    <member refid="class_solar_1_1_entity_1a8010333cb1dba3521b1c57e54ebde5c6" kind="function"><name>setUid</name></member>
+    <member refid="class_solar_1_1_entity_1acf934f506bd74c17649f918ff113dffa" kind="function"><name>setOwn</name></member>
+    <member refid="class_solar_1_1_entity_1a48f68d69beab775f979d29d7c7da8faf" kind="function"><name>init</name></member>
+    <member refid="class_solar_1_1_entity_1acc70b38e7333a1f3630e2c39b24871dd" kind="function"><name>updateScene</name></member>
+    <member refid="class_solar_1_1_entity_1a37be4e3bf60dd2842ba0fea99a3dca31" kind="function"><name>find</name></member>
+    <member refid="class_solar_1_1_entity_1abbf29804b21fe6e3b9cfec11a4115520" kind="function"><name>getScene</name></member>
+    <member refid="class_solar_1_1_entity_1ad61fb4d5e687f7a8ba596b69408f1cae" kind="function"><name>getIdx</name></member>
+    <member refid="class_solar_1_1_entity_1afa6abf6091f2c300e31eb71da2afa415" kind="function"><name>destroy</name></member>
+    <member refid="class_solar_1_1_entity_1ab6785a0c9578c2026e5c34a82862449b" kind="function"><name>getId</name></member>
+    <member refid="class_solar_1_1_entity_1a3b386b6b5e35e7792c6f5ee39b13580c" kind="function"><name>setScript</name></member>
+    <member refid="class_solar_1_1_entity_1a83483444aaa01b4fab0e7ce41560ce59" kind="function"><name>getScript</name></member>
+    <member refid="class_solar_1_1_entity_1ab8a10abbc00db8becee6f9e5668c7b60" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_entity_1a1bcca8d7c131344a72a35b4c794e81fe" kind="function"><name>find</name></member>
+    <member refid="class_solar_1_1_entity_1a68aaed16959fed13691074f3e6293d95" kind="function"><name>get</name></member>
+    <member refid="class_solar_1_1_entity_1afab2011c7a5e1d843a4ba3036bfad593" kind="function"><name>remove</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_system_1_1_event" kind="class"><name>Solar::System::Event</name>
+    <member refid="class_solar_1_1_system_1_1_event_1af18a9ee98e70982bfe2975391d7221a5" kind="friend"><name>System</name></member>
+    <member refid="class_solar_1_1_system_1_1_event_1a90c8ebb4b7bf43f957b48848676987ed" kind="variable"><name>type</name></member>
+    <member refid="class_solar_1_1_system_1_1_event_1a054820866c644c9666f376d859dddb0e" kind="function"><name>set</name></member>
+    <member refid="class_solar_1_1_system_1_1_event_1ab0f9fbc1243753942026a2b28298093f" kind="function"><name>is</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_indexer" kind="class"><name>Solar::Indexer</name>
+    <member refid="class_solar_1_1_indexer_1ad9f14a1f5add8b4bc81bdc92aa2d17e4" kind="typedef"><name>indexType</name></member>
+    <member refid="class_solar_1_1_indexer_1aa8f5a9159e84379d2353b8740089cc60" kind="variable"><name>index</name></member>
+    <member refid="class_solar_1_1_indexer_1a00dc93cb700f99c5095fbc3500777133" kind="variable"><name>freeIndex</name></member>
+    <member refid="class_solar_1_1_indexer_1aa2fed1ff772a8c5e7893655c9c2b6482" kind="function"><name>Indexer</name></member>
+    <member refid="class_solar_1_1_indexer_1a4f0f40ed65f8c6f003837f5c7898b0d7" kind="function"><name>Indexer</name></member>
+    <member refid="class_solar_1_1_indexer_1a5771cba2b6ef21b3220c37ef1ca183a4" kind="function"><name>operator=</name></member>
+    <member refid="class_solar_1_1_indexer_1acbf63e323f121c44ce7a8f978cc13c8b" kind="function"><name>next</name></member>
+    <member refid="class_solar_1_1_indexer_1a2c01fa4f33091c3ff78d6229f03bba78" kind="function"><name>reset</name></member>
+    <member refid="class_solar_1_1_indexer_1a0298335035779cee4b862cd62e2bb21c" kind="function"><name>free</name></member>
+    <member refid="class_solar_1_1_indexer_1a73389a4549cb0c27d1e9e5855adc0a06" kind="function"><name>~Indexer</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_inner_core" kind="class"><name>Solar::InnerCore</name>
+    <member refid="class_solar_1_1_inner_core_1a4107254ac74f90d4f91e810d755b98c2" kind="friend"><name>Core</name></member>
+    <member refid="class_solar_1_1_inner_core_1a614439ccac0344926adc4c0165d64060" kind="friend"><name>Entity</name></member>
+    <member refid="class_solar_1_1_inner_core_1a7b4bcdf992c21ae83363f25df05b1d25" kind="friend"><name>World</name></member>
+    <member refid="class_solar_1_1_inner_core_1aed75f0bddd133c717f447f96f8fdb99f" kind="variable"><name>indexer</name></member>
+    <member refid="class_solar_1_1_inner_core_1afdcdc3512730c755e8a5671b08a68d93" kind="variable"><name>own</name></member>
+    <member refid="class_solar_1_1_inner_core_1a01526f87779a4389eaf2d47684e179bd" kind="variable"><name>primalWorld</name></member>
+    <member refid="class_solar_1_1_inner_core_1a41a1186f9c0473d25385e2384b765360" kind="variable"><name>currentWorld</name></member>
+    <member refid="class_solar_1_1_inner_core_1ab7e621620ab2606c88432287fdce9e66" kind="variable"><name>worlds</name></member>
+    <member refid="class_solar_1_1_inner_core_1a43b0317588ed692cba3ef7c31c6f9bd2" kind="variable"><name>scenes</name></member>
+    <member refid="class_solar_1_1_inner_core_1aa16910f9d10ac365fc9b24325915249c" kind="function"><name>InnerCore</name></member>
+    <member refid="class_solar_1_1_inner_core_1a875547f4baa5f2e3c1ad44858039a866" kind="function"><name>setCurrentWorld</name></member>
+    <member refid="class_solar_1_1_inner_core_1af30ca68f658a03112a08da9d8fe16567" kind="function"><name>getPrimalWorld</name></member>
+    <member refid="class_solar_1_1_inner_core_1a7215000811d45b2e53f8e040b08fc85f" kind="function"><name>setOwn</name></member>
+    <member refid="class_solar_1_1_inner_core_1a7581f436e7ea2b2a00248fba4c6b5dd4" kind="function"><name>createEntity</name></member>
+    <member refid="class_solar_1_1_inner_core_1aab07fe93d0adf258bf772f06053e0b3f" kind="function"><name>createWorld</name></member>
+    <member refid="class_solar_1_1_inner_core_1aa126c8bdc53ea8f51071f766ab9aab37" kind="function"><name>createScene</name></member>
+    <member refid="class_solar_1_1_inner_core_1a78242cf28f3221fb11d617151dc80c78" kind="function"><name>update</name></member>
+    <member refid="class_solar_1_1_inner_core_1a52265dd7f1374101f5d56f85776ae517" kind="function"><name>destroy</name></member>
+    <member refid="class_solar_1_1_inner_core_1aaa64289d28c23cae0056bf5c58918bd9" kind="function"><name>~InnerCore</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_scene" kind="class"><name>Solar::Scene</name>
+    <member refid="class_solar_1_1_scene_1a614439ccac0344926adc4c0165d64060" kind="friend"><name>Entity</name></member>
+    <member refid="class_solar_1_1_scene_1a22b7f6ee0d77e67446edf06eead52c3b" kind="friend"><name>InnerCore</name></member>
+    <member refid="class_solar_1_1_scene_1af18a9ee98e70982bfe2975391d7221a5" kind="friend"><name>System</name></member>
+    <member refid="class_solar_1_1_scene_1a7b4bcdf992c21ae83363f25df05b1d25" kind="friend"><name>World</name></member>
+    <member refid="class_solar_1_1_scene_1a222fe99946c89be9c9f6fef78ffddaa3" kind="variable"><name>systemIndexer</name></member>
+    <member refid="class_solar_1_1_scene_1a3105d769432dfc16609095876480655a" kind="variable"><name>active</name></member>
+    <member refid="class_solar_1_1_scene_1a0f08ea3541f90c7a4111617d6fb8765f" kind="variable"><name>script</name></member>
+    <member refid="class_solar_1_1_scene_1a4ff856a9696b071160bffc0dc4a909bd" kind="variable"><name>name</name></member>
+    <member refid="class_solar_1_1_scene_1a367bf26916c7d4066eb8c86217ceba92" kind="variable"><name>world</name></member>
+    <member refid="class_solar_1_1_scene_1a5e9463ecf8094d73cf5c0c3eff64af2c" kind="variable"><name>own</name></member>
+    <member refid="class_solar_1_1_scene_1a79140136dc82be845294d6af03c27bee" kind="variable"><name>mother</name></member>
+    <member refid="class_solar_1_1_scene_1aecb680817f08375af1ffa8a21a430cde" kind="variable"><name>childrens</name></member>
+    <member refid="class_solar_1_1_scene_1a1d5b39643cb79d336e3dbb992d695052" kind="variable"><name>activeSystem</name></member>
+    <member refid="class_solar_1_1_scene_1ac9735dd08f0cf235052f2433e8e1848e" kind="variable"><name>systemToLink</name></member>
+    <member refid="class_solar_1_1_scene_1ad387cf4f97defa69e744dbb78594907b" kind="variable"><name>systems</name></member>
+    <member refid="class_solar_1_1_scene_1a8f9591ad29fc2aeea85acb73a33eccff" kind="variable"><name>entities</name></member>
+    <member refid="class_solar_1_1_scene_1a532c7bb8029b593a15a779222acf7548" kind="function"><name>Scene</name></member>
+    <member refid="class_solar_1_1_scene_1a777227cd5c562dffd4d6bd2ebbc73eb5" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_scene_1a7715dc4be8886a7d792eeb9515811ffb" kind="function"><name>setOwn</name></member>
+    <member refid="class_solar_1_1_scene_1a7738a92f999c511d57ba663827979699" kind="function"><name>getWorld</name></member>
+    <member refid="class_solar_1_1_scene_1a71c64c9ed9d7378c632561642b13c0ec" kind="function"><name>setWorld</name></member>
+    <member refid="class_solar_1_1_scene_1a72bccb64eaf71725ff376153914a31f1" kind="function"><name>checkRemoveFrom</name></member>
+    <member refid="class_solar_1_1_scene_1a9408a0c30f59b24a0e8911873b6a4141" kind="function"><name>checkAddTo</name></member>
+    <member refid="class_solar_1_1_scene_1a305c898aabddd3b54e3148e3aea2cf5f" kind="function"><name>checkUpdateIn</name></member>
+    <member refid="class_solar_1_1_scene_1a9eaf54b666e44ea4b54c99872c35ba11" kind="function"><name>compare</name></member>
+    <member refid="class_solar_1_1_scene_1a417425368dd6ce9e1d4ff9b65c287e9f" kind="function"><name>compare</name></member>
+    <member refid="class_solar_1_1_scene_1a071c1a69591fcd4611127c2ec7701386" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_scene_1a836331d60c910837f6c854b2af165ae4" kind="function"><name>releaseMotherScene</name></member>
+    <member refid="class_solar_1_1_scene_1ae523b7cacf3e16456c93d876689dee20" kind="function"><name>setMotherScene</name></member>
+    <member refid="class_solar_1_1_scene_1aa927ad853ac27bb97f8028864e8405ff" kind="function"><name>update</name></member>
+    <member refid="class_solar_1_1_scene_1a4298cc5cf7dc8096892c5198298e5041" kind="function"><name>load</name></member>
+    <member refid="class_solar_1_1_scene_1a20032cff16be1a3bb0253c1861b668c6" kind="function"><name>unload</name></member>
+    <member refid="class_solar_1_1_scene_1ad4af985d458948de97e467aeabd37735" kind="function"><name>loaded</name></member>
+    <member refid="class_solar_1_1_scene_1a696339fdbb06e674e9bf953b2ffa3b5f" kind="function"><name>isInMotherWorld</name></member>
+    <member refid="class_solar_1_1_scene_1a21edb3e21ea0e5be055e8ebe540655b9" kind="function"><name>receive</name></member>
+    <member refid="class_solar_1_1_scene_1a0a26354ae30c2007372d0ebd33ef2db0" kind="function"><name>receive</name></member>
+    <member refid="class_solar_1_1_scene_1a2d68e804d7f1c22a95b2b591ebaadc64" kind="function"><name>getMother</name></member>
+    <member refid="class_solar_1_1_scene_1a265ff0242d123de4d739bd6c9df93baa" kind="function"><name>optimizeFor</name></member>
+    <member refid="class_solar_1_1_scene_1acb4143b77e11d02557783522c12c93b2" kind="function"><name>setSceneScript</name></member>
+    <member refid="class_solar_1_1_scene_1a00f7d80e7f1bc9a542910b56d35cd23d" kind="function"><name>clear</name></member>
+    <member refid="class_solar_1_1_scene_1a2297da9a68f6685f1a25727d9eb4331c" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_scene_1a0de9c67b699f78607dd09b565f1e308a" kind="function"><name>update</name></member>
+    <member refid="class_solar_1_1_scene_1ab782b3012f64f81b54c95f55367e62bb" kind="function"><name>getName</name></member>
+    <member refid="class_solar_1_1_scene_1a3c1f8b457185a9d59ae46007eb858cf3" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_scene_1a9288f22905115b2518eff52f4409a1f6" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_scene_1a5baab202a1bca61a7dd577c105ef7a69" kind="function"><name>goToScene</name></member>
+    <member refid="class_solar_1_1_scene_1a7b9525222007690a2a95d61b818b448c" kind="function"><name>goToScene</name></member>
+    <member refid="class_solar_1_1_scene_1a410afce85f482cec37181d0c17b4ffa2" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_scene_1a082867e8de12f245be50c17f978280fa" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_scene_1a847dc6bfbbfc94e19cca019113681ebb" kind="function"><name>isActive</name></member>
+    <member refid="class_solar_1_1_scene_1a4ec1c6406dd89edd4a1ccea87760a895" kind="function"><name>setActivityOf</name></member>
+    <member refid="class_solar_1_1_scene_1a48d4dd8f53bcc13ed1fbd497a8b76ac6" kind="function"><name>setActivity</name></member>
+    <member refid="class_solar_1_1_scene_1aa82c37b60ae73a9e458b6743eaaa90e7" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_scene_1a0ae376eafc5ccbdd9db3d25ad0661202" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_scene_1a4eaf9d896cfd4ef2bc88ea01ce6dc613" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_scene_1a1d29f36176234ddb395f740a89c6463a" kind="function"><name>~Scene</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_system" kind="class"><name>Solar::System</name>
+    <member refid="class_solar_1_1_system_1a032858ae1fe02d2d1170981c2af2d67c" kind="friend"><name>Scene</name></member>
+    <member refid="class_solar_1_1_system_1a2b948df7c4f676ffb15e870b8c5f534c" kind="variable"><name>idx</name></member>
+    <member refid="class_solar_1_1_system_1ac3b531960e14ae9ea9067ef5e12fd1ca" kind="variable"><name>scene</name></member>
+    <member refid="class_solar_1_1_system_1a3b309097fce5d92508412f12c080a19b" kind="variable"><name>includeList</name></member>
+    <member refid="class_solar_1_1_system_1ab3f1c1a6b0ba1d4e49da676a6f33c170" kind="variable"><name>excludeList</name></member>
+    <member refid="class_solar_1_1_system_1ad80a1442bb167238d55e323519f1bc9b" kind="variable"><name>internalList</name></member>
+    <member refid="class_solar_1_1_system_1abbdfb74869b20dabbf573e4195603a1d" kind="variable"><name>systems</name></member>
+    <member refid="class_solar_1_1_system_1a16274308acbb925528a6aede23688908" kind="variable"><name>entities</name></member>
+    <member refid="class_solar_1_1_system_1ab9a89a416d4ecdcc627560d9afadb60e" kind="function"><name>clear</name></member>
+    <member refid="class_solar_1_1_system_1a1711ced05a10d0a2186b540bd7a2aa58" kind="function"><name>addIn</name></member>
+    <member refid="class_solar_1_1_system_1a0ab29bc2c09e8507c5db02bc93d5fe61" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_system_1a9b53b9b3ed04da91ac13e27cfef64aeb" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_system_1a20062e126649579a354cf322b79ab4c4" kind="function"><name>removeFrom</name></member>
+    <member refid="class_solar_1_1_system_1aebe7a01e35ef9a96956630ae452740f4" kind="function"><name>isIn</name></member>
+    <member refid="class_solar_1_1_system_1ad71db4b94949cd9595dea7724d40cd52" kind="function"><name>getInternalList</name></member>
+    <member refid="class_solar_1_1_system_1a66e1e6014641b0642ad6b2f0e734a523" kind="function"><name>setScene</name></member>
+    <member refid="class_solar_1_1_system_1ac64ec24c1b5b0dba167ce5cca246ed37" kind="function"><name>signal</name></member>
+    <member refid="class_solar_1_1_system_1a244e2469790bde77f4654ee169c386f1" kind="function"><name>signal</name></member>
+    <member refid="class_solar_1_1_system_1a2cc07a11df7044c5ff3f0bcf504577db" kind="function"><name>isCompatible</name></member>
+    <member refid="class_solar_1_1_system_1a4366bda1ebe7c0afab1f087d835645c2" kind="function"><name>run</name></member>
+    <member refid="class_solar_1_1_system_1aef24759124941ad8d98f6ecd4f2b1c4e" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_system_1a55c52f556dd8a249e6fa934d8a06f52f" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_system_1ae0484fea329529a1a6ab41fec006da56" kind="function"><name>receive</name></member>
+    <member refid="class_solar_1_1_system_1a8a73df7e78a54f86f3fa3b3c03944ec3" kind="function"><name>receive</name></member>
+    <member refid="class_solar_1_1_system_1a3f54fe60018a7844b02a869a2f55253f" kind="function"><name>signal</name></member>
+    <member refid="class_solar_1_1_system_1a402430910694eba6091677c42b32d59a" kind="function"><name>signal</name></member>
+    <member refid="class_solar_1_1_system_1ac2c23a6ea18753aca3b7d28e99473a8d" kind="function"><name>link</name></member>
+    <member refid="class_solar_1_1_system_1ab809489739167467706b521af59ad37e" kind="function"><name>include</name></member>
+    <member refid="class_solar_1_1_system_1a5706274166317c2e23ba033b6b139110" kind="function"><name>exclude</name></member>
+    <member refid="class_solar_1_1_system_1a6d928b7b482413e032641ee38bfe78e1" kind="function"><name>getIdx</name></member>
+    <member refid="class_solar_1_1_system_1a44e237aebc1497761fba8cf8ade98574" kind="function"><name>~System</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_system_list" kind="class"><name>Solar::SystemList</name>
+    <member refid="class_solar_1_1_system_list_1a391abacb577fc67db8966991fe0c7366" kind="typedef"><name>iterator</name></member>
+    <member refid="class_solar_1_1_system_list_1a9c9320420cf3ba7ea5cb41bec0bc8bd3" kind="typedef"><name>const_iterator</name></member>
+    <member refid="class_solar_1_1_system_list_1a84eb626268f39ba3212791ac50523d5c" kind="variable"><name>elements</name></member>
+    <member refid="class_solar_1_1_system_list_1a69af06cfbe4d474379a96deed30e630f" kind="function"><name>addElement</name></member>
+    <member refid="class_solar_1_1_system_list_1ab7bea7c3653fe58d0fe6aeb271ed8819" kind="function"><name>SystemList</name></member>
+    <member refid="class_solar_1_1_system_list_1a7a5f4ca685c5d5bb4e004bd0302770f1" kind="function"><name>operator=</name></member>
+    <member refid="class_solar_1_1_system_list_1a9e454baf75bfabd41c97c81f08bb3437" kind="function"><name>operator+</name></member>
+    <member refid="class_solar_1_1_system_list_1ad89ee5e406f7a11bbe9ee9b3e296de0f" kind="function"><name>operator+=</name></member>
+    <member refid="class_solar_1_1_system_list_1a49c406b642badd2b0199c4a73c6ca48e" kind="function"><name>begin</name></member>
+    <member refid="class_solar_1_1_system_list_1a0f47510f8346e8630ffdbe764d23aaa3" kind="function"><name>begin</name></member>
+    <member refid="class_solar_1_1_system_list_1a66011f1eeec8f96a0585593ef344cdea" kind="function"><name>end</name></member>
+    <member refid="class_solar_1_1_system_list_1a7340fb8941a767c5b522f0075563f0a0" kind="function"><name>end</name></member>
+    <member refid="class_solar_1_1_system_list_1ac21bd97ec6f4f2ca168ab51c2a96bd5d" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_system_list_1a390a66974fc37d2beffe9e0b08799666" kind="function"><name>~SystemList</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_time_idx" kind="class"><name>Solar::TimeIdx</name>
+    <member refid="class_solar_1_1_time_idx_1ad9764c9308bdb6dbc05b9e37f8bce269" kind="variable"><name>real</name></member>
+    <member refid="class_solar_1_1_time_idx_1a03159afa08f2693784bfa2a267cb8abd" kind="variable"><name>expected</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_vector" kind="class"><name>Solar::Vector</name>
+    <member refid="class_solar_1_1_vector_1a1894c50bcd40a690963c100b8a690a92" kind="typedef"><name>iterator</name></member>
+    <member refid="class_solar_1_1_vector_1a5e4f37932a0dc774926ad1d7097e14b6" kind="typedef"><name>const_iterator</name></member>
+    <member refid="class_solar_1_1_vector_1a032858ae1fe02d2d1170981c2af2d67c" kind="friend"><name>Scene</name></member>
+    <member refid="class_solar_1_1_vector_1af18a9ee98e70982bfe2975391d7221a5" kind="friend"><name>System</name></member>
+    <member refid="class_solar_1_1_vector_1aee7de13ea8582240762f2b57d2ea2889" kind="variable"><name>size</name></member>
+    <member refid="class_solar_1_1_vector_1ae0aeabb90596b535d857f49acdb565e6" kind="variable"><name>items</name></member>
+    <member refid="class_solar_1_1_vector_1a2c6b9f407d21d8af5168e040bdb45c6b" kind="function"><name>Vector</name></member>
+    <member refid="class_solar_1_1_vector_1a57c75653c78d3c35fb92259b8bc9b755" kind="function"><name>optimizeFor</name></member>
+    <member refid="class_solar_1_1_vector_1ac91e3fa212cbf83354529373031d2b36" kind="function"><name>getPos</name></member>
+    <member refid="class_solar_1_1_vector_1a3f063efaa3c27f943a7d8c49816a5af8" kind="function"><name>insert</name></member>
+    <member refid="class_solar_1_1_vector_1a0a2fb1abd018e034cad7ece2d789b846" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_vector_1a315cd366567b3bbc2a5664a60b691b4c" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_vector_1a4b02c7b0e77a7bee0671e80ef92d1c2c" kind="function"><name>find</name></member>
+    <member refid="class_solar_1_1_vector_1ab393abc7a5b6c2a97aa70fdae83b9361" kind="function"><name>clear</name></member>
+    <member refid="class_solar_1_1_vector_1a10094569f9ae125348855d109111464f" kind="function"><name>begin</name></member>
+    <member refid="class_solar_1_1_vector_1a8faeaebeda04d76b34a26f33a7279feb" kind="function"><name>begin</name></member>
+    <member refid="class_solar_1_1_vector_1a37173e2fab143522c4c687413a4ce4ad" kind="function"><name>end</name></member>
+    <member refid="class_solar_1_1_vector_1aae0799a55d5789d21929bbc46b1c5d58" kind="function"><name>end</name></member>
+    <member refid="class_solar_1_1_vector_1af3193692ea1e649db7ac5611f92f05b5" kind="function"><name>~Vector</name></member>
+  </compound>
+  <compound refid="class_solar_1_1_world" kind="class"><name>Solar::World</name>
+    <member refid="class_solar_1_1_world_1a22b7f6ee0d77e67446edf06eead52c3b" kind="friend"><name>InnerCore</name></member>
+    <member refid="class_solar_1_1_world_1a032858ae1fe02d2d1170981c2af2d67c" kind="friend"><name>Scene</name></member>
+    <member refid="class_solar_1_1_world_1afe10f2e6dad9e7b37cda05af03861cbb" kind="variable"><name>primal</name></member>
+    <member refid="class_solar_1_1_world_1af0db52ee398cd83681381beb870aab1c" kind="variable"><name>idx</name></member>
+    <member refid="class_solar_1_1_world_1acbeedc2ed3398c8f62e38b809d551241" kind="variable"><name>core</name></member>
+    <member refid="class_solar_1_1_world_1af53360073b4037196db99dbacef525a1" kind="variable"><name>script</name></member>
+    <member refid="class_solar_1_1_world_1ac9202aa8ff6054934bc9385d384a1b4e" kind="variable"><name>name</name></member>
+    <member refid="class_solar_1_1_world_1a1f83dbd13728b20fdf17f795321a0055" kind="variable"><name>own</name></member>
+    <member refid="class_solar_1_1_world_1aa55a5fb522bfa6168feb4634273ada26" kind="variable"><name>mother</name></member>
+    <member refid="class_solar_1_1_world_1af512ce9b545c424e9c3841e9ef41d180" kind="variable"><name>childrens</name></member>
+    <member refid="class_solar_1_1_world_1afddf45c0ff473a65f9eb1dd2e78ad836" kind="variable"><name>defaultScene</name></member>
+    <member refid="class_solar_1_1_world_1a583572bd59f1d4d11be7e995fcc85f86" kind="variable"><name>scenes</name></member>
+    <member refid="class_solar_1_1_world_1a0f4f9d113d6564f50b7a4aa36fb50fbf" kind="function"><name>World</name></member>
+    <member refid="class_solar_1_1_world_1a568666acb26078731a95c86a693b7040" kind="function"><name>getIdx</name></member>
+    <member refid="class_solar_1_1_world_1afd55596a1bbdaa9d6b69863cc3dc19d6" kind="function"><name>isPrimal</name></member>
+    <member refid="class_solar_1_1_world_1a676bbb4bd224106e6062c755b5f7675e" kind="function"><name>getScene</name></member>
+    <member refid="class_solar_1_1_world_1a5fdf19d44df6766c878464b38d539b4f" kind="function"><name>replaceSceneBy</name></member>
+    <member refid="class_solar_1_1_world_1a9967c86dd7bc19dfae096225a2e2a32d" kind="function"><name>setOwn</name></member>
+    <member refid="class_solar_1_1_world_1a60d20bd07219d78c0d41e4dc3a7b5718" kind="function"><name>compare</name></member>
+    <member refid="class_solar_1_1_world_1acd8619053d9f539ce1ea7cfbf72a2657" kind="function"><name>releaseMother</name></member>
+    <member refid="class_solar_1_1_world_1aa8fc9db55bfdb30d06399329ae04c540" kind="function"><name>setMotherWorld</name></member>
+    <member refid="class_solar_1_1_world_1aa1f961a144dbed3f023ee208e5eca246" kind="function"><name>load</name></member>
+    <member refid="class_solar_1_1_world_1a127fff9b367b953574d3a177fdcf51e2" kind="function"><name>unload</name></member>
+    <member refid="class_solar_1_1_world_1a98ef34c7ccb93fa73dd7e05c268bdb88" kind="function"><name>getDefaultScene</name></member>
+    <member refid="class_solar_1_1_world_1a89e157dafb11b47f65182945d537d213" kind="function"><name>setWorldScript</name></member>
+    <member refid="class_solar_1_1_world_1a1e7c75213a1d79f2455ca8c63ecedd2f" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_world_1a97e61da15bb26a402a8c02566ca5689f" kind="function"><name>add</name></member>
+    <member refid="class_solar_1_1_world_1a5826aa2e1b50b4852740722e622d7a34" kind="function"><name>update</name></member>
+    <member refid="class_solar_1_1_world_1af1eed09115b6571590e86b14e76506ac" kind="function"><name>getName</name></member>
+    <member refid="class_solar_1_1_world_1a36ea84067e01ec77618fcc7897af6257" kind="function"><name>goToWorld</name></member>
+    <member refid="class_solar_1_1_world_1a89e1bc2b740c3ede37c54e35431d6048" kind="function"><name>goToWorld</name></member>
+    <member refid="class_solar_1_1_world_1a301cfb188b98e5921a2c4ac3f883f096" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_world_1a1ecb2d9297894285ce2b2c283997cbed" kind="function"><name>remove</name></member>
+    <member refid="class_solar_1_1_world_1acf401f808a9cc38b2af96777d52e35bb" kind="function"><name>~World</name></member>
+  </compound>
+  <compound refid="namespace_solar" kind="namespace"><name>Solar</name>
+  </compound>
+  <compound refid="_a_entity_script_8cpp" kind="file"><name>AEntityScript.cpp</name>
+  </compound>
+  <compound refid="_a_entity_script_8hpp" kind="file"><name>AEntityScript.hpp</name>
+  </compound>
+  <compound refid="_a_scene_script_8cpp" kind="file"><name>ASceneScript.cpp</name>
+  </compound>
+  <compound refid="_a_scene_script_8hpp" kind="file"><name>ASceneScript.hpp</name>
+  </compound>
+  <compound refid="_a_world_script_8cpp" kind="file"><name>AWorldScript.cpp</name>
+  </compound>
+  <compound refid="_a_world_script_8hpp" kind="file"><name>AWorldScript.hpp</name>
+  </compound>
+  <compound refid="_component_8hpp" kind="file"><name>Component.hpp</name>
+  </compound>
+  <compound refid="_core_8cpp" kind="file"><name>Core.cpp</name>
+  </compound>
+  <compound refid="_core_8hpp" kind="file"><name>Core.hpp</name>
+  </compound>
+  <compound refid="_entity_8cpp" kind="file"><name>Entity.cpp</name>
+  </compound>
+  <compound refid="_entity_8hpp" kind="file"><name>Entity.hpp</name>
+  </compound>
+  <compound refid="_indexer_8cpp" kind="file"><name>Indexer.cpp</name>
+  </compound>
+  <compound refid="_indexer_8hpp" kind="file"><name>Indexer.hpp</name>
+  </compound>
+  <compound refid="_inner_core_8cpp" kind="file"><name>InnerCore.cpp</name>
+  </compound>
+  <compound refid="_inner_core_8hpp" kind="file"><name>InnerCore.hpp</name>
+  </compound>
+  <compound refid="_main_page_8md" kind="file"><name>MainPage.md</name>
+  </compound>
+  <compound refid="_scene_8cpp" kind="file"><name>Scene.cpp</name>
+  </compound>
+  <compound refid="_scene_8hpp" kind="file"><name>Scene.hpp</name>
+  </compound>
+  <compound refid="_system_8cpp" kind="file"><name>System.cpp</name>
+  </compound>
+  <compound refid="_system_8hpp" kind="file"><name>System.hpp</name>
+  </compound>
+  <compound refid="_system_list_8cpp" kind="file"><name>SystemList.cpp</name>
+  </compound>
+  <compound refid="_system_list_8hpp" kind="file"><name>SystemList.hpp</name>
+  </compound>
+  <compound refid="_time_idx_8hpp" kind="file"><name>TimeIdx.hpp</name>
+  </compound>
+  <compound refid="_vector_8hpp" kind="file"><name>Vector.hpp</name>
+  </compound>
+  <compound refid="_world_8cpp" kind="file"><name>World.cpp</name>
+  </compound>
+  <compound refid="_world_8hpp" kind="file"><name>World.hpp</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>
